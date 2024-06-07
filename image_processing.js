@@ -258,13 +258,12 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/misc/sego_house_purchase.png");
+const im = Image.loadImageFromFile("images/notable_builds/joe_utopia.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("sego_house_purchase_average");
+avg.save("joe_utopia_average");
 
-console.log(im.width/1,im.height/1);
+console.log(im.width/1.5,im.height/1.5);
 
-// console.log(avg.width,avg.height);
 

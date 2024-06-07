@@ -5,7 +5,9 @@
 .build_mail,
 .build_reno_tea_room,
 .build_prince_rat_axolotls,
-.build_pink_spawn{
+.build_pink_spawn,
+.build_aedan_house,
+.build_joe_utopia{
     display: block;
     position: relative;
     margin:10px;
@@ -16,7 +18,9 @@
 .build_mail::before,
 .build_reno_tea_room::before,
 .build_prince_rat_axolotls::before,
-.build_pink_spawn::before
+.build_pink_spawn::before,
+.build_aedan_house::before,
+.build_joe_utopia::before
 {
     content:"";
     top: 0;
@@ -37,7 +41,9 @@
 .build_mail:hover::before,
 .build_reno_tea_room:hover::before,
 .build_prince_rat_axolotls:hover::before,
-.build_pink_spawn:hover::before
+.build_pink_spawn:hover::before,
+.build_aedan_house:hover::before,
+.build_joe_utopia:hover::before
 {
     opacity:0;
 }
@@ -47,7 +53,9 @@
 .build_mail::after,
 .build_reno_tea_room::after,
 .build_prince_rat_axolotls::after,
-.build_pink_spawn::after
+.build_pink_spawn::after,
+.build_aedan_house::after,
+.build_joe_utopia::after
 {
     opacity: 0.75;
     top: 0;
@@ -137,139 +145,30 @@
     content:"Pink Spawn\A Turned pink prior to Hash's return by Pirk";
 }
 
-/* events */
-
-.event_mahoose_birthday_1,
-.event_mahoose_birthday_2,
-.event_mahoose_boats,
-.event_mahoose_many,
-.event_taco_bell,
-.event_mahoose_shop{
-    display: block;
-    position: relative;
-    margin:10px;
-}
-
-.event_mahoose_birthday_1::before,
-.event_mahoose_birthday_2::before,
-.event_mahoose_boats::before,
-.event_mahoose_many::before,
-.event_taco_bell::before,
-.event_mahoose_shop::before
-{
-    content:"";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    z-index:10;
-    background-size: cover;
-}
-
-.event_mahoose_birthday_1:hover::before,
-.event_mahoose_birthday_2:hover::before,
-.event_mahoose_boats:hover::before,
-.event_mahoose_many:hover::before,
-.event_taco_bell:hover::before,
-.event_mahoose_shop:hover::before
-{
-    opacity:0;
-}
-
-.event_mahoose_birthday_1::after,
-.event_mahoose_birthday_2::after,
-.event_mahoose_boats::after,
-.event_mahoose_many::after,
-.event_taco_bell::after,
-.event_mahoose_shop::after
-{
-    opacity: 0.75;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    text-align: center;
-    font-family: 'MinecraftFont';  
-    padding-top:20%;
-    white-space: pre-wrap;
-    font-size:large;
-}
-
-.event_mahoose_birthday_1{
-    width: 689px;
-    height: 366px;
-}
-.event_mahoose_birthday_1::before{
-    background-image:url(images/events/mahoose_birthday_1.png);
-}
-.event_mahoose_birthday_1::after{
-    background-image:url(images_out/mahoose_birthday_1_average.png);
-    content:"Mahoose's Birthday Party\A Is he a Virgo or a Libra?";
-}
-
-.event_mahoose_birthday_2{
-    width: 731px;
-    height: 388px;
-}
-.event_mahoose_birthday_2::before{
-    background-image:url(images/events/mahoose_birthday_2.png);
-}
-.event_mahoose_birthday_2::after{
-    background-image:url(images_out/mahoose_birthday_2_average.png);
-    content:"More Mahoose's Birthday Party\A Is it true that he is Akoot_'s alt? Hmm...";
-}
-
-.event_mahoose_boats{
-    width: 395px;
-    height: 342px;
-}
-.event_mahoose_boats::before{
-    background-image:url(images/events/mahoose_boats.png);
-}
-.event_mahoose_boats::after{
-    background-image:url(images_out/mahoose_boats_average.png);
-    content:"Boats and Mahoose\A Not sure what the context of this is, but it's a cool picture!";
-}
-
-.event_mahoose_many{
-    width: 576px;
-    height: 340px;
-}
-.event_mahoose_many::before{
-    background-image:url(images/events/mahoose_many.png);
-}
-.event_mahoose_many::after{
-    background-image:url(images_out/mahoose_many_average.png);
-    content:"So many Mahooses\A Can there be too many Mahooses? \A The answer depends on the recipient...";
-}
-
-.event_taco_bell{
+.build_aedan_house{
     width: 768px;
-    height: 406px;
+    height: 403px;
 }
-.event_taco_bell::before{
-    background-image:url(images/events/taco_bell.png);
+.build_aedan_house::before{
+    background-image:url(images/notable_builds/aedan_house.png);
 }
-.event_taco_bell::after{
-    background-image:url(images_out/taco_bell_average.png);
-    content:"Taco Bell\A One of the first builds in the second shopping district.";
+.build_aedan_house::after{
+    background-image:url(images_out/aedan_house_average.png);
+    content:"Aedan's House\A Looks like it's in Maltsburg";
 }
 
-.event_mahoose_shop{
-    width: 496px;
-    height: 398px;
+.build_joe_utopia{
+    width: 626px;
+    height: 337px;
 }
-.event_mahoose_shop::before{
-    background-image:url(images/events/mahoose_shop.png);
+.build_joe_utopia::before{
+    background-image:url(images/notable_builds/joe_utopia.png);
 }
-.event_mahoose_shop::after{
-    background-image:url(images_out/mahoose_shop_average.png);
-    content:"Mahoose's First Shop\A Obviously the prices are totally reasonable! \A Looking back on this, is this Mahoose being sold?";
+.build_joe_utopia::after{
+    background-image:url(images_out/joe_utopia_average.png);
+    content:"Joe's Uptopia\A But where is the individualism?";
 }
+
+
+
+
