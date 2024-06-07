@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/mahoose_many.png");
+const im = Image.loadImageFromFile("images/events/taco_bell.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("mahoose_many_average");
+avg.save("taco_bell_average");
 
-console.log(im.width/1.5,im.height/1.5);
+console.log(im.width/2.5,im.height/2.5);
 

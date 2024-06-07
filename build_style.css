@@ -1,0 +1,275 @@
+/* builds */
+
+.build_hash_new_base,
+.build_500am_base,
+.build_mail,
+.build_reno_tea_room,
+.build_prince_rat_axolotls,
+.build_pink_spawn{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+.build_hash_new_base::before,
+.build_500am_base::before,
+.build_mail::before,
+.build_reno_tea_room::before,
+.build_prince_rat_axolotls::before,
+.build_pink_spawn::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+.build_hash_new_base:hover::before,
+.build_500am_base:hover::before,
+.build_mail:hover::before,
+.build_reno_tea_room:hover::before,
+.build_prince_rat_axolotls:hover::before,
+.build_pink_spawn:hover::before
+{
+    opacity:0;
+}
+
+.build_hash_new_base::after,
+.build_500am_base::after,
+.build_mail::after,
+.build_reno_tea_room::after,
+.build_prince_rat_axolotls::after,
+.build_pink_spawn::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:large;
+}
+
+
+.build_hash_new_base{
+    width: 617px;
+    height: 356px;
+}
+.build_hash_new_base::before{
+    background-image:url(images/notable_builds/hash_new_base.png);
+}
+.build_hash_new_base::after{
+    background-image:url(images_out/hash_average.png);
+    content:"Hash's new base\A Some have called it sinister and negative,\A but it was always meant to be cozy";
+}
+
+.build_500am_base{
+    width: 801px;
+    height: 406px;
+}
+.build_500am_base::before{
+    background-image:url(images/notable_builds/500am_base.png);
+}
+.build_500am_base::after{
+    background-image:url(images_out/500am_base_average.png);
+    content:"500am's base\A Literally one of the grandest buildings on the server";
+}
+
+.build_mail{
+    width: 474px;
+    height: 463px;
+}
+.build_mail::before{
+    background-image:url(images/notable_builds/mail.png);
+}
+.build_mail::after{
+    background-image:url(images_out/mail_average.png);
+    content:"Post Office\A Have you recieved mail?";
+}
+
+.build_reno_tea_room{
+    width: 905px;
+    height: 419px;
+}
+.build_reno_tea_room::before{
+    background-image:url(images/notable_builds/reno_tea_room.png);
+}
+.build_reno_tea_room::after{
+    background-image:url(images_out/reno_tea_room_average.png);
+    content:"Reno's Tea Room\A Pretty and pink, located at Pink House";
+}
+
+
+.build_prince_rat_axolotls{
+    width: 574px;
+    height: 329px;
+}
+.build_prince_rat_axolotls::before{
+    background-image:url(images/notable_builds/prince_rat_axolotls.png);
+}
+.build_prince_rat_axolotls::after{
+    background-image:url(images_out/prince_rat_axolotls_average.png);
+    content:"Prince Rat's Axolotls\A Does he have every color? Does he have more than Hash?";
+}
+
+.build_pink_spawn{
+    width: 669px;
+    height: 376px;
+}
+.build_pink_spawn::before{
+    background-image:url(images/notable_builds/pink_spawn.png);
+}
+.build_pink_spawn::after{
+    background-image:url(images_out/pink_spawn_average.png);
+    content:"Pink Spawn\A Turned pink prior to Hash's return by Pirk";
+}
+
+/* events */
+
+.event_mahoose_birthday_1,
+.event_mahoose_birthday_2,
+.event_mahoose_boats,
+.event_mahoose_many,
+.event_taco_bell,
+.event_mahoose_shop{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+.event_mahoose_birthday_1::before,
+.event_mahoose_birthday_2::before,
+.event_mahoose_boats::before,
+.event_mahoose_many::before,
+.event_taco_bell::before,
+.event_mahoose_shop::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+.event_mahoose_birthday_1:hover::before,
+.event_mahoose_birthday_2:hover::before,
+.event_mahoose_boats:hover::before,
+.event_mahoose_many:hover::before,
+.event_taco_bell:hover::before,
+.event_mahoose_shop:hover::before
+{
+    opacity:0;
+}
+
+.event_mahoose_birthday_1::after,
+.event_mahoose_birthday_2::after,
+.event_mahoose_boats::after,
+.event_mahoose_many::after,
+.event_taco_bell::after,
+.event_mahoose_shop::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:large;
+}
+
+.event_mahoose_birthday_1{
+    width: 689px;
+    height: 366px;
+}
+.event_mahoose_birthday_1::before{
+    background-image:url(images/events/mahoose_birthday_1.png);
+}
+.event_mahoose_birthday_1::after{
+    background-image:url(images_out/mahoose_birthday_1_average.png);
+    content:"Mahoose's Birthday Party\A Is he a Virgo or a Libra?";
+}
+
+.event_mahoose_birthday_2{
+    width: 731px;
+    height: 388px;
+}
+.event_mahoose_birthday_2::before{
+    background-image:url(images/events/mahoose_birthday_2.png);
+}
+.event_mahoose_birthday_2::after{
+    background-image:url(images_out/mahoose_birthday_2_average.png);
+    content:"More Mahoose's Birthday Party\A Is it true that he is Akoot_'s alt? Hmm...";
+}
+
+.event_mahoose_boats{
+    width: 395px;
+    height: 342px;
+}
+.event_mahoose_boats::before{
+    background-image:url(images/events/mahoose_boats.png);
+}
+.event_mahoose_boats::after{
+    background-image:url(images_out/mahoose_boats_average.png);
+    content:"Boats and Mahoose\A Not sure what the context of this is, but it's a cool picture!";
+}
+
+.event_mahoose_many{
+    width: 576px;
+    height: 340px;
+}
+.event_mahoose_many::before{
+    background-image:url(images/events/mahoose_many.png);
+}
+.event_mahoose_many::after{
+    background-image:url(images_out/mahoose_many_average.png);
+    content:"So many Mahooses\A Can there be too many Mahooses? \A The answer depends on the recipient...";
+}
+
+.event_taco_bell{
+    width: 768px;
+    height: 406px;
+}
+.event_taco_bell::before{
+    background-image:url(images/events/taco_bell.png);
+}
+.event_taco_bell::after{
+    background-image:url(images_out/taco_bell_average.png);
+    content:"Taco Bell\A One of the first builds in the second shopping district.";
+}
+
+.event_mahoose_shop{
+    width: 496px;
+    height: 398px;
+}
+.event_mahoose_shop::before{
+    background-image:url(images/events/mahoose_shop.png);
+}
+.event_mahoose_shop::after{
+    background-image:url(images_out/mahoose_shop_average.png);
+    content:"Mahoose's First Shop\A Obviously the prices are totally reasonable! \A Looking back on this, is this Mahoose being sold?";
+}

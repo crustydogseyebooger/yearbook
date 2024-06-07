@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: 'MinecraftFont';
+    src: url('MC.otf') format('opentype');
+}
+
+.title {
+    font-size:100px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    /* line-height: 100px; */
+    /* margin-top: -100px; */
+    /* position: absolute; */
+    text-align: center;
+    /* top: 50%;*/
+    width: 100%;
+}
+
+.subtitle {
+    font-size:70px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    /* line-height: 265px; */
+    /* margin-top: -100px; */
+    /* position: absolute; */
+    text-align: center;
+    /* top: 50%; */
+    width: 100%;
+}
+
+
+
+.page_title {
+    font-size:100px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    line-height: 100px;
+    margin-top: 25px;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.page_subtitle {
+    font-size:70px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    line-height: 100px;
+    margin-top: 0px;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+
+p{
+    font-size:35px;
+    font-family: 'MinecraftFont';  
+    line-height: 50px;
+    margin-top: 5px;
+    margin-left:75px;
+    margin-right:75px;
+    text-align: center;
+    top: 50%;
+}
+
+.back{
+    font-size:25px;
+    font-family: 'MinecraftFont';  
+    text-align: center;
+    position:relative;
+    top:5px;
+    bottom:15px;
+    width:100%;
+}
+
+a {   
+    color: black;   
+}
+
+a:active {
+    color: pink;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+
+body {
+    background-image: url("images/paper.png");
+    background-size:cover;
+}
+
+.click-area {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+}
+
+.right-side {
+    right: 0;
+    cursor: pointer;
+}
+
+
+.left-side {
+    left: 0;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    /* background-color: aquamarine; */
+}
+
+.title_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:16%;
+    /* background-color: aquamarine; */
+}
+
