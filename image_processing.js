@@ -258,12 +258,12 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/heads/nova.png");
+const im = Image.loadImageFromFile("images/events/traveler_entrance.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("nova");
+avg.save("traveler_entrance");
 
-console.log(im.width/1,im.height/1);
+console.log(im.width/5,im.height/5);
 
 
