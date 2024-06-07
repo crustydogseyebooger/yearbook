@@ -24,7 +24,8 @@
 .head_women,
 .head_yamda,
 .head_zap,
-.head_big
+.head_big,
+.head_star
 {
     display: block;
     position: relative;
@@ -55,7 +56,8 @@
 .head_women::before,
 .head_yamda::before,
 .head_zap::before,
-.head_big::before
+.head_big::before,
+.head_star::before
 {
     content:"";
     top: 0;
@@ -95,7 +97,8 @@
 .head_women:hover::before,
 .head_yamda:hover::before,
 .head_zap:hover::before,
-.head_big:hover::before
+.head_big:hover::before,
+.head_star:hover::before
 {
     opacity:0;
 }
@@ -124,7 +127,8 @@
 .head_women::after,
 .head_yamda::after,
 .head_zap::after,
-.head_big::after
+.head_big::after,
+.head_star::after
 {
     opacity: 0.75;
     top: 0;
@@ -451,5 +455,19 @@
 .head_nova::after{
     background-image:url(images_out/nova_average.png);
     content:"ApophisNova";
+    font-size:large;
+}
+
+.head_star{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_star::before{
+    background-image:url(images/heads/star.png);
+}
+.head_star::after{
+    background-image:url(images_out/star_average.png);
+    content:"ECstardust";
     font-size:large;
 }
