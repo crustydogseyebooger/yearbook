@@ -1,0 +1,138 @@
+/* events */
+
+.event_wedding_1,
+.event_wedding_2,
+.event_flower_fight_1,
+.event_flower_fight_2,
+.event_survivor_1,
+.event_survivor_2
+{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+.event_wedding_1::before,
+.event_wedding_2::before,
+.event_flower_fight_1::before,
+.event_flower_fight_2::before,
+.event_survivor_1::before,
+.event_survivor_2::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+.event_wedding_1:hover::before,
+.event_wedding_2:hover::before,
+.event_flower_fight_1:hover::before,
+.event_flower_fight_2:hover::before,
+.event_survivor_1:hover::before,
+.event_survivor_2:hover::before
+{
+    opacity:0;
+}
+
+.event_wedding_1::after,
+.event_wedding_2::after,
+.event_flower_fight_1::after,
+.event_flower_fight_2::after,
+.event_survivor_1::after,
+.event_survivor_2::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:x-large;
+}
+
+
+.event_wedding_1{
+    width: 952px;
+    height: 460px;
+}
+.event_wedding_1::before{
+    background-image:url(images/events/wedding_1.png);
+}
+.event_wedding_1::after{
+    background-image:url(images_out/wedding_1_average.png);
+    content:"Akoot & Co. Wedding\A I believe this was Bubbly and Two's wedding \A Venue built by Crate.";
+}
+
+.event_wedding_2{
+    width: 987px;
+    height: 416px;
+}
+.event_wedding_2::before{
+    background-image:url(images/events/wedding_2.png);
+}
+.event_wedding_2::after{
+    background-image:url(images_out/wedding_2_average.png);
+    content:"Akoot & Co. Wedding\A I don't remember if the marriage plugin was actually workig...";
+}
+
+.event_flower_fight_1{
+    width: 787px;
+    height: 421px;
+}
+.event_flower_fight_1::before{
+    background-image:url(images/events/flower_fight_1.png);
+}
+.event_flower_fight_1::after{
+    background-image:url(images_out/flower_fight_1_average.png);
+    content:"Flower Fight Arena\A Take off your armor. Shake my hand. Go!";
+}
+
+.event_flower_fight_2{
+    width: 418px;
+    height: 375px;
+}
+.event_flower_fight_2::before{
+    background-image:url(images/events/flower_fight_2.png);
+}
+.event_flower_fight_2::after{
+    background-image:url(images_out/flower_fight_2_average.png);
+    content:"Flower Fight Arena\A Too bad someone removed it... how sad.";
+}
+
+.event_survivor_1{
+    width: 717px;
+    height: 367px;
+}
+.event_survivor_1::before{
+    background-image:url(images/events/survivor_1.png);
+}
+.event_survivor_1::after{
+    background-image:url(images_out/survivor_1_average.png);
+    content:"Survivor Minigame\A Skyblock with PVP and amazing redstone engineering by Crate and Ipa";
+}
+
+.event_survivor_2{
+    width: 558px;
+    height: 277px;
+}
+.event_survivor_2::before{
+    background-image:url(images/events/survivor_2.png);
+}
+.event_survivor_2::after{
+    background-image:url(images_out/survivor_2_average.png);
+    content:"Survivor Minigame\A This game literally made my laptop explode every time it was run!";
+}

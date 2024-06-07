@@ -20,7 +20,13 @@
 .event_christmas_trees,
 .event_december_court,
 .event_december_court_judge,
-.event_december_court_judge_attacked{
+.event_december_court_judge_attacked,
+
+.event_new_years_1,
+.event_new_years_2,
+.event_new_years_3,
+.event_new_years_4
+{
     display: block;
     position: relative;
     margin:10px;
@@ -46,7 +52,14 @@
 .event_christmas_trees::before,
 .event_december_court::before,
 .event_december_court_judge::before,
-.event_december_court_judge_attacked::before{
+.event_december_court_judge_attacked::before,
+
+.event_new_years_1::before,
+.event_new_years_2::before,
+.event_new_years_3::before,
+.event_new_years_4::before
+
+{
     content:"";
     top: 0;
     left: 0;
@@ -81,7 +94,13 @@
 .event_christmas_trees:hover::before,
 .event_december_court:hover::before,
 .event_december_court_judge:hover::before,
-.event_december_court_judge_attacked:hover::before
+.event_december_court_judge_attacked:hover::before,
+
+.event_new_years_1:hover::before,
+.event_new_years_2:hover::before,
+.event_new_years_3:hover::before,
+.event_new_years_4:hover::before
+
 {
     opacity:0;
 }
@@ -106,7 +125,13 @@
 .event_christmas_trees::after,
 .event_december_court::after,
 .event_december_court_judge::after,
-.event_december_court_judge_attacked::after
+.event_december_court_judge_attacked::after,
+
+.event_new_years_1::after,
+.event_new_years_2::after,
+.event_new_years_3::after,
+.event_new_years_4::after
+
 {
     opacity: 0.75;
     top: 0;
@@ -349,4 +374,53 @@
 .event_december_court_judge_attacked::after{
     background-image:url(images_out/december_court_judge_attacked_average.png);
     content:"December Court Judge Attacked!\A But who really started it?";
+}
+
+
+.event_new_years_1{
+    width: 673px;
+    height: 375px;
+}
+.event_new_years_1::before{
+    background-image:url(images/events/new_years_1.png);
+}
+.event_new_years_1::after{
+    background-image:url(images_out/new_years_1_average.png);
+    content:"New Year's Eve\A Group photo!";
+}
+
+.event_new_years_2{
+    width: 523px;
+    height: 306px;
+}
+.event_new_years_2::before{
+    background-image:url(images/events/new_years_2.png);
+}
+.event_new_years_2::after{
+    background-image:url(images_out/new_years_2_average.png);
+    content:"New Year's Eve\A Friends watching the fireworks.";
+}
+
+.event_new_years_3{
+    width: 530px;
+    height: 369px;
+}
+.event_new_years_3::before{
+    background-image:url(images/events/new_years_3.png);
+}
+.event_new_years_3::after{
+    background-image:url(images_out/new_years_3_average.png);
+    content:"New Year's Eve\A Another group photo, are you in it?";
+}
+
+.event_new_years_4{
+    width: 530px;
+    height: 369px;
+}
+.event_new_years_4::before{
+    background-image:url(images/events/new_years_4.png);
+}
+.event_new_years_4::after{
+    background-image:url(images_out/new_years_4_average.png);
+    content:"New Year's Eve\A More friends watching the fireworks.";
 }

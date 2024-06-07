@@ -14,7 +14,8 @@
 .head_vnrs,
 .head_bub,
 .head_jozef,
-.head_cow{
+.head_cow,
+.head_neoma{
     display: block;
     position: relative;
     margin:10px;
@@ -34,7 +35,8 @@
 .head_vnrs::before,
 .head_bub::before,
 .head_jozef::before,
-.head_cow::before
+.head_cow::before,
+.head_neoma::before
 {
     content:"";
     top: 0;
@@ -64,7 +66,8 @@
 .head_vnrs:hover::before,
 .head_bub:hover::before,
 .head_jozef:hover::before,
-.head_cow:hover::before
+.head_cow:hover::before,
+.head_neoma:hover::before
 {
     opacity:0;
 }
@@ -83,7 +86,8 @@
 .head_vnrs::after,
 .head_bub::after,
 .head_jozef::after,
-.head_cow::after
+.head_cow::after,
+.head_neoma::after
 {
     opacity: 0.75;
     top: 0;
@@ -273,7 +277,6 @@
     font-size:large;
 }
 
-
 .head_cow{
     width: 184px;
     height: 184px;
@@ -286,4 +289,18 @@
     background-image:url(images_out/cow_average.png);
     content:"ExcitedCow494";
     font-size:large;
+}
+
+.head_neoma{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_neoma::before{
+    background-image:url(images/heads/neoma.png);
+}
+.head_neoma::after{
+    background-image:url(images_out/neoma_average.png);
+    content:"Neoma__";
+    font-size:x-large;
 }

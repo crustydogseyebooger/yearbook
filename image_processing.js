@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/christmas_friends_after.png");
+const im = Image.loadImageFromFile("images/events/survivor_2.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("christmas_friends_after_average");
+avg.save("survivor_2_average");
 
 console.log(im.width/1,im.height/1);
 
