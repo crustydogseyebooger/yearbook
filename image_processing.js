@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/survivor_2.png");
+const im = Image.loadImageFromFile("images/events/ipa_overload.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("survivor_2_average");
+avg.save("ipa_overload_average");
 
 console.log(im.width/1,im.height/1);
 

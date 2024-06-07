@@ -5,7 +5,8 @@
 .event_flower_fight_1,
 .event_flower_fight_2,
 .event_survivor_1,
-.event_survivor_2
+.event_survivor_2,
+.event_ipa_overload
 {
     display: block;
     position: relative;
@@ -17,7 +18,8 @@
 .event_flower_fight_1::before,
 .event_flower_fight_2::before,
 .event_survivor_1::before,
-.event_survivor_2::before
+.event_survivor_2::before,
+.event_ipa_overload::before
 {
     content:"";
     top: 0;
@@ -38,7 +40,8 @@
 .event_flower_fight_1:hover::before,
 .event_flower_fight_2:hover::before,
 .event_survivor_1:hover::before,
-.event_survivor_2:hover::before
+.event_survivor_2:hover::before,
+.event_ipa_overload:hover::before
 {
     opacity:0;
 }
@@ -48,7 +51,8 @@
 .event_flower_fight_1::after,
 .event_flower_fight_2::after,
 .event_survivor_1::after,
-.event_survivor_2::after
+.event_survivor_2::after,
+.event_ipa_overload::after
 {
     opacity: 0.75;
     top: 0;
@@ -86,7 +90,7 @@
 }
 .event_wedding_2::after{
     background-image:url(images_out/wedding_2_average.png);
-    content:"Akoot & Co. Wedding\A I don't remember if the marriage plugin was actually workig...";
+    content:"Akoot & Co. Wedding\A I don't remember if the marriage plugin was actually working...";
 }
 
 .event_flower_fight_1{
@@ -135,4 +139,16 @@
 .event_survivor_2::after{
     background-image:url(images_out/survivor_2_average.png);
     content:"Survivor Minigame\A This game literally made my laptop explode every time it was run!";
+}
+
+.event_ipa_overload{
+    width: 573px;
+    height: 441px;
+}
+.event_ipa_overload::before{
+    background-image:url(images/events/ipa_overload.png);
+}
+.event_ipa_overload::after{
+    background-image:url(images_out/ipa_overload_average.png);
+    content:"Ipa's Playerheads\A The sign is right.";
 }
