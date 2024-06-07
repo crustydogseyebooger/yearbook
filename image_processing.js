@@ -141,7 +141,7 @@ export class Image {
     if (!fs.existsSync(images_out)) {
       fs.mkdirSync(images_out);
     }
-    this.saveToPath(path.resolve(images_out, fileName + ".png"));
+    this.saveToPath(path.resolve(images_out, fileName + "_average.png"));
   }
 
   /**
@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/ipa_overload.png");
+const im = Image.loadImageFromFile("images/heads/nova.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("ipa_overload_average");
+avg.save("nova");
 
 console.log(im.width/1,im.height/1);
 
