@@ -5,7 +5,11 @@
 .event_mahoose_boats,
 .event_mahoose_many,
 .event_taco_bell,
-.event_mahoose_shop{
+.event_mahoose_shop,
+.event_bee_halloween,
+.event_nova_halloween,
+.event_nzzketch_halloween,
+.event_picture_box_halloween{
     display: block;
     position: relative;
     margin:10px;
@@ -16,7 +20,11 @@
 .event_mahoose_boats::before,
 .event_mahoose_many::before,
 .event_taco_bell::before,
-.event_mahoose_shop::before
+.event_mahoose_shop::before,
+.event_bee_halloween::before,
+.event_nova_halloween::before,
+.event_nzzketch_halloween::before,
+.event_picture_box_halloween::before
 {
     content:"";
     top: 0;
@@ -37,7 +45,11 @@
 .event_mahoose_boats:hover::before,
 .event_mahoose_many:hover::before,
 .event_taco_bell:hover::before,
-.event_mahoose_shop:hover::before
+.event_mahoose_shop:hover::before,
+.event_bee_halloween:hover::before,
+.event_nova_halloween:hover::before,
+.event_nzzketch_halloween:hover::before,
+.event_picture_box_halloween:hover::before
 {
     opacity:0;
 }
@@ -47,7 +59,11 @@
 .event_mahoose_boats::after,
 .event_mahoose_many::after,
 .event_taco_bell::after,
-.event_mahoose_shop::after
+.event_mahoose_shop::after,
+.event_bee_halloween::after,
+.event_nova_halloween::after,
+.event_nzzketch_halloween::after,
+.event_picture_box_halloween::after
 {
     opacity: 0.75;
     top: 0;
@@ -133,4 +149,52 @@
 .event_mahoose_shop::after{
     background-image:url(images_out/mahoose_shop_average.png);
     content:"Mahoose's First Shop\A Obviously the prices are totally reasonable! \A Looking back on this, is this Mahoose being sold?";
+}
+
+.event_bee_halloween{
+    width: 624px;
+    height: 410px;
+}
+.event_bee_halloween::before{
+    background-image:url(images/events/bee_halloween.png);
+}
+.event_bee_halloween::after{
+    background-image:url(images_out/bee_halloween_average.png);
+    content:"Bee's Contest Submission";
+}
+
+.event_nova_halloween{
+    width: 467px;
+    height: 338px;
+}
+.event_nova_halloween::before{
+    background-image:url(images/events/nova_halloween.png);
+}
+.event_nova_halloween::after{
+    background-image:url(images_out/nova_halloween_average.png);
+    content:"Nova's Contest Submission";
+}
+
+.event_nzzketch_halloween{
+    width: 617px;
+    height: 298px;
+}
+.event_nzzketch_halloween::before{
+    background-image:url(images/events/nzzketch_halloween.png);
+}
+.event_nzzketch_halloween::after{
+    background-image:url(images_out/nzzketch_halloween_average.png);
+    content:"Nzzketch's Contest Submission";
+}
+
+.event_picture_box_halloween{
+    width: 601px;
+    height: 363px;
+}
+.event_picture_box_halloween::before{
+    background-image:url(images/events/picture_box_halloween.png);
+}
+.event_picture_box_halloween::after{
+    background-image:url(images_out/picture_box_halloween_average.png);
+    content:"Picture Box's Contest Submission";
 }

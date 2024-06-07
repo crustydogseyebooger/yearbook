@@ -12,7 +12,8 @@
 .head_rat,
 .head_500am,
 .head_vnrs,
-.head_bub{
+.head_bub,
+.head_jozef{
     display: block;
     position: relative;
     margin:10px;
@@ -30,7 +31,8 @@
 .head_rat::before,
 .head_500am::before,
 .head_vnrs::before,
-.head_bub::before
+.head_bub::before,
+.head_jozef::before
 {
     content:"";
     top: 0;
@@ -58,7 +60,8 @@
 .head_rat:hover::before,
 .head_500am:hover::before,
 .head_vnrs:hover::before,
-.head_bub:hover::before
+.head_bub:hover::before,
+.head_jozef:hover::before
 {
     opacity:0;
 }
@@ -75,7 +78,8 @@
 .head_rat::after,
 .head_500am::after,
 .head_vnrs::after,
-.head_bub::after
+.head_bub::after,
+.head_jozef::after
 {
     opacity: 0.75;
     top: 0;
@@ -105,8 +109,6 @@
     background-image:url(images_out/hash_average.png);
     content:"lilhashbrown";
 } 
-
-
 
 .head_ipa{
     width: 184px;
@@ -251,5 +253,18 @@
 .head_bub::after{
     background-image:url(images_out/bub_average.png);
     content:"BubblyPrototype";
+    font-size:large;
+}
+
+.head_jozef{
+    width: 184px;
+    height: 184px;
+}
+.head_jozef::before{
+    background-image:url(images/heads/jozef.png);
+}
+.head_jozef::after{
+    background-image:url(images_out/jozef_average.png);
+    content:"jozef45";
     font-size:large;
 }
