@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/notable_builds/mail.png");
+const im = Image.loadImageFromFile("images/events/mahoose_many.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("mail_average");
+avg.save("mahoose_many_average");
 
-console.log(im.width/2,im.height/2);
+console.log(im.width/1.5,im.height/1.5);
 
