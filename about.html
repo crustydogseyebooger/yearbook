@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="aesthetic.css">
+
+</head>
+<body>
+    <div class="page_title">About</div>
+    <div class="page_subtitle">Welcome to the Akoot & Co. Yearbook</div>
+    <p>
+
+        This is a website that contains images and memories from the Akoot & Co. Minecraft server. 
+        Why I decided to make this website is so I would have somewhere (other than the Discord) to save, post, and share screenshots from the server.
+        This is my first project in web dev and I hope you enjoy.<br>
+        - Hash
+        <br><br>
+        <b>Important: Click on the sides to navigate between pages and hover over images for more information.</b>
+
+    </p>
+
+
+    <div class="back"><a href="table_of_contents.html">Back to Table of Contents</a></div>
+
+    <p></p>
+    <div class="click-area right-side">
+    <script>
+        document.querySelector('.right-side').addEventListener('click', function() {
+            window.location.href = 'members.html';
+        });
+    </script>
+    </div>
+    <div class="click-area left-side">
+        <script>
+            document.querySelector('.left-side').addEventListener('click', function() {
+                window.location.href = 'table_of_contents.html';
+            });
+        </script>
+    </div>
+</body>
+</html>

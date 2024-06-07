@@ -50,6 +50,40 @@
     width: 100%;
 }
 
+p{
+    font-size:35px;
+    font-family: 'MinecraftFont';  
+    line-height: 50px;
+    margin-top: 5px;
+    margin-left:75px;
+    margin-right:75px;
+    text-align: center;
+    top: 50%;
+}
+
+.back{
+    font-size:25px;
+    font-family: 'MinecraftFont';  
+    text-align: center;
+    position:relative;
+    top:5px;
+    bottom:15px;
+    width:100%;
+}
+
+a {   
+    color: black;   
+}
+
+a:active {
+    color: pink;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+
 body {
     background-image: url("images/paper.png");
     background-size:cover;
@@ -59,7 +93,7 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50%;
+    width: 25%;
 }
 
 .right-side {
