@@ -7,7 +7,11 @@
 .build_prince_rat_axolotls,
 .build_pink_spawn,
 .build_aedan_house,
-.build_joe_utopia{
+.build_joe_utopia,
+.build_demon,
+.build_dreamwick,
+.build_tatooine
+{
     display: block;
     position: relative;
     margin:10px;
@@ -20,7 +24,10 @@
 .build_prince_rat_axolotls::before,
 .build_pink_spawn::before,
 .build_aedan_house::before,
-.build_joe_utopia::before
+.build_joe_utopia::before,
+.build_demon::before,
+.build_dreamwick::before,
+.build_tatooine::before
 {
     content:"";
     top: 0;
@@ -43,7 +50,10 @@
 .build_prince_rat_axolotls:hover::before,
 .build_pink_spawn:hover::before,
 .build_aedan_house:hover::before,
-.build_joe_utopia:hover::before
+.build_joe_utopia:hover::before,
+.build_demon:hover::before,
+.build_dreamwick:hover::before,
+.build_tatooine:hover::before
 {
     opacity:0;
 }
@@ -55,7 +65,10 @@
 .build_prince_rat_axolotls::after,
 .build_pink_spawn::after,
 .build_aedan_house::after,
-.build_joe_utopia::after
+.build_joe_utopia::after,
+.build_demon::after,
+.build_dreamwick::after,
+.build_tatooine::after
 {
     opacity: 0.75;
     top: 0;
@@ -169,6 +182,39 @@
     content:"Joe's Uptopia\A But where is the individualism?";
 }
 
+.build_demon{
+    width: 768px;
+    height: 410px;
+}
+.build_demon::before{
+    background-image:url(images/notable_builds/demon.png);
+}
+.build_demon::after{
+    background-image:url(images_out/demon_average.png);
+    content:"Tara and Jub's Build\A This is actually so cool like? So cool.";
+}
 
+.build_dreamwick{
+    width: 600px;
+    height: 392px;
+}
+.build_dreamwick::before{
+    background-image:url(images/notable_builds/dreamwick.png);
+}
+.build_dreamwick::after{
+    background-image:url(images_out/dreamwick_average.png);
+    content:"Pirk'sDreamwick\A Pirk's medieval town, one of the coolest ever";
+}
 
+.build_tatooine{
+    width: 768px;
+    height: 410px;
+}
+.build_tatooine::before{
+    background-image:url(images/notable_builds/tatooine.png);
+}
+.build_tatooine::after{
+    background-image:url(images_out/tatooine_average.png);
+    content:"Joe's Tatooine\A A Star Wars inspired build";
+}
 

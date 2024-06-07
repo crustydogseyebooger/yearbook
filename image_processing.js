@@ -258,12 +258,12 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/traveler_entrance.png");
+const im = Image.loadImageFromFile("images/notable_builds/dreamwick.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("traveler_entrance");
+avg.save("dreamwick");
 
-console.log(im.width/5,im.height/5);
+console.log(im.width/1.75,im.height/1.75);
 
 

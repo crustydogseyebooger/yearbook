@@ -6,7 +6,8 @@
 .event_flower_fight_2,
 .event_survivor_1,
 .event_survivor_2,
-.event_ipa_overload
+.event_ipa_overload,
+.event_sizzle
 {
     display: block;
     position: relative;
@@ -19,7 +20,8 @@
 .event_flower_fight_2::before,
 .event_survivor_1::before,
 .event_survivor_2::before,
-.event_ipa_overload::before
+.event_ipa_overload::before,
+.event_sizzle::before
 {
     content:"";
     top: 0;
@@ -41,7 +43,8 @@
 .event_flower_fight_2:hover::before,
 .event_survivor_1:hover::before,
 .event_survivor_2:hover::before,
-.event_ipa_overload:hover::before
+.event_ipa_overload:hover::before,
+.event_sizzle:hover::before
 {
     opacity:0;
 }
@@ -52,7 +55,8 @@
 .event_flower_fight_2::after,
 .event_survivor_1::after,
 .event_survivor_2::after,
-.event_ipa_overload::after
+.event_ipa_overload::after,
+.event_sizzle::after
 {
     opacity: 0.75;
     top: 0;
@@ -151,4 +155,16 @@
 .event_ipa_overload::after{
     background-image:url(images_out/ipa_overload_average.png);
     content:"Ipa's Playerheads\A The sign is right.";
+}
+
+.event_sizzle{
+    width: 1280px;
+    height: 720px;
+}
+.event_sizzle::before{
+    background-image:url(images/events/sizzle.png);
+}
+.event_sizzle::after{
+    background-image:url(images_out/sizzle_average.png);
+    content:"Sizzle War\A Cow and Bubbly fought over ownership to the Sizzle, a popular news publication.";
 }
