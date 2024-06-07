@@ -258,13 +258,13 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/heads/cow.png");
+const im = Image.loadImageFromFile("images/misc/sego_house_purchase.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("cow_average");
+avg.save("sego_house_purchase_average");
 
-console.log(im.width,im.height);
+console.log(im.width/1,im.height/1);
 
-console.log(avg.width,avg.height);
+// console.log(avg.width,avg.height);
 

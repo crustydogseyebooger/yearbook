@@ -1,0 +1,124 @@
+/* When there isn't a clear topic for the page */
+
+.misc_akoot_friends_sitting,
+.misc_akoots,
+.misc_double_akoots,
+.misc_maltsburg_roads,
+.misc_sego_house_purchase{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+.misc_akoot_friends_sitting::before,
+.misc_akoots::before,
+.misc_double_akoots::before,
+.misc_maltsburg_roads::before,
+.misc_sego_house_purchase::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+
+.misc_akoot_friends_sitting:hover::before,
+.misc_akoots:hover::before,
+.misc_double_akoots:hover::before,
+.misc_maltsburg_roads:hover::before,
+.misc_sego_house_purchase:hover::before
+
+{
+    opacity:0;
+}
+
+
+.misc_akoot_friends_sitting::after,
+.misc_akoots::after,
+.misc_double_akoots::after,
+.misc_maltsburg_roads::after,
+.misc_sego_house_purchase::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:x-large;
+}
+
+.misc_akoot_friends_sitting{
+    width: 513px;
+    height: 328px;
+}
+.misc_akoot_friends_sitting::before{
+    background-image:url(images/misc/akoot_friends_sitting.png);
+}
+.misc_akoot_friends_sitting::after{
+    background-image:url(images_out/akoot_friends_sitting_average.png);
+    content:"Akoot sitting with friends";
+}
+
+.misc_akoots{
+    width: 432px;
+    height: 323px;
+}
+.misc_akoots::before{
+    background-image:url(images/misc/akoots.png);
+}
+.misc_akoots::after{
+    background-image:url(images_out/akoots_average.png);
+    content:"Multiple Akoots \A Yikes!";
+}
+
+.misc_double_akoots{
+    width: 423px;
+    height: 340px;
+}
+.misc_double_akoots::before{
+    background-image:url(images/misc/double_akoots.png);
+}
+.misc_double_akoots::after{
+    background-image:url(images_out/double_akoots_average.png);
+    content:"Double Akoots \A Twin, where have you been?";
+}
+
+.misc_maltsburg_roads{
+    width: 674px;
+    height: 383px;
+}
+.misc_maltsburg_roads::before{
+    background-image:url(images/misc/maltsburg_roads.png);
+}
+.misc_maltsburg_roads::after{
+    background-image:url(images_out/maltsburg_roads_average.png);
+    content:"Construction of Maltsburg Roads \A This was before it was overtaken by rats...";
+}
+
+
+.misc_sego_house_purchase{
+    width: 592px;
+    height: 456px;
+}
+.misc_sego_house_purchase::before{
+    background-image:url(images/misc/sego_house_purchase.png);
+}
+.misc_sego_house_purchase::after{
+    background-image:url(images_out/sego_house_purchase_average.png);
+    content:"Sego buys a house \A I wonder how much it costed him.";
+}
