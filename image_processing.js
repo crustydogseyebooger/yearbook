@@ -258,9 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/vnrs.png");
+const im = Image.loadImageFromFile("images/notable_builds/mail.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("vnrs_average");
+avg.save("mail_average");
+
+console.log(im.width/2,im.height/2);
 
