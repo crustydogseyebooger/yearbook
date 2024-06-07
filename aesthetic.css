@@ -1,0 +1,307 @@
+
+@font-face {
+    font-family: 'MinecraftFont';
+    src: url('MC.otf') format('opentype');
+}
+
+.title {
+    font-size:100px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    line-height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.page_title {
+    font-size:100px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    line-height: 100px;
+    margin-top: 25px;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.subtitle {
+    font-size:70px;
+    font-family: 'MinecraftFont';  
+    left: 0;
+    line-height: 265px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+body {
+    background-image: url("images/paper.png");
+    background-size:cover;
+}
+
+.click-area {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.right-side {
+    right: 0;
+    cursor: pointer;
+}
+
+
+.left-side {
+    left: 0;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.head_hash,
+.head_ipa,
+.head_akoot,
+.head_xan,
+.head_reno,
+.head_joe,
+.head_snark,
+.head_sego,
+.head_visc,
+.head_rat,
+.head_500am,
+.head_vnrs{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+
+
+/* heads */
+
+.head_hash::before,
+.head_ipa::before,
+.head_akoot::before,
+.head_xan::before,
+.head_reno::before,
+.head_joe::before,
+.head_snark::before,
+.head_sego::before,
+.head_visc::before,
+.head_rat::before,
+.head_500am::before,
+.head_vnrs::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+}
+
+.head_hash:hover::before,
+.head_ipa:hover::before,
+.head_akoot:hover::before,
+.head_xan:hover::before,
+.head_reno:hover::before,
+.head_joe:hover::before,
+.head_snark:hover::before,
+.head_sego:hover::before,
+.head_visc:hover::before,
+.head_rat:hover::before,
+.head_500am:hover::before,
+.head_vnrs:hover::before
+{
+    opacity:0;
+}
+
+.head_hash::after,
+.head_ipa::after,
+.head_akoot::after,
+.head_xan::after,
+.head_reno::after,
+.head_joe::after,
+.head_snark::after,
+.head_sego::after,
+.head_visc::after,
+.head_rat::after,
+.head_500am::after,
+.head_vnrs::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-size:x-large;
+    font-family: 'MinecraftFont';  
+    padding-top:25%;
+}
+
+
+/* individuals */
+
+.head_hash{
+    width: 184px;
+    height: 184px;
+}
+.head_hash::before{
+    background-image:url(images/hash.png);
+}
+.head_hash::after{
+    background-image:url(images_out/hash_average.png);
+    content:"lilhashbrown";
+}
+
+
+
+.head_ipa{
+    width: 184px;
+    height: 184px;
+}
+.head_ipa::before{
+    background-image:url(images/ipa.png);
+}
+.head_ipa::after{
+    background-image:url(images_out/ipa_average.png);
+    content:"IndiaPaleAle";
+}
+
+.head_akoot{
+    width: 184px;
+    height: 184px;
+}
+.head_akoot::before{
+    background-image:url(images/akoot.png);
+}
+.head_akoot::after{
+    background-image:url(images_out/akoot_average.png);
+    content:"Akoot_";
+}
+
+.head_xan{
+    width: 184px;
+    height: 184px;
+}
+.head_xan::before{
+    background-image:url(images/xan.png);
+}
+.head_xan::after{
+    background-image:url(images_out/xan_average.png);
+    content:"Xanxus542";
+}
+
+.head_reno{
+    width: 184px;
+    height: 184px;
+}
+.head_reno::before{
+    background-image:url(images/reno.png);
+}
+.head_reno::after{
+    background-image:url(images_out/reno_average.png);
+    content:"cuddlyMonster";
+}
+
+.head_joe{
+    width: 184px;
+    height: 184px;
+}
+.head_joe::before{
+    background-image:url(images/joe.png);
+}
+.head_joe::after{
+    background-image:url(images_out/joe_average.png);
+    content:"joethahobo";
+}
+
+.head_snark{
+    width: 184px;
+    height: 184px;
+}
+.head_snark::before{
+    background-image:url(images/snark.png);
+}
+.head_snark::after{
+    background-image:url(images_out/snark_average.png);
+    content:"SnarKaizer";
+}
+
+
+.head_sego{
+    width: 184px;
+    height: 184px;
+}
+.head_sego::before{
+    background-image:url(images/sego.png);
+}
+.head_sego::after{
+    background-image:url(images_out/sego_average.png);
+    content:"Segotep999";
+}
+
+.head_visc{
+    width: 184px;
+    height: 184px;
+}
+.head_visc::before{
+    background-image:url(images/visc.png);
+}
+.head_visc::after{
+    background-image:url(images_out/visc_average.png);
+    content:"Viscalis";
+}
+
+.head_rat{
+    width: 184px;
+    height: 184px;
+}
+.head_rat::before{
+    background-image:url(images/rat.png);
+}
+.head_rat::after{
+    background-image:url(images_out/rat_average.png);
+    content:"Prince_Rat";
+}
+
+.head_500am{
+    width: 184px;
+    height: 184px;
+}
+.head_500am::before{
+    background-image:url(images/500am.png);
+}
+.head_500am::after{
+    background-image:url(images_out/500am_average.png);
+    content:"500am";
+}
+
+.head_vnrs{
+    width: 184px;
+    height: 184px;
+}
+.head_vnrs::before{
+    background-image:url(images/vnrs.png);
+}
+.head_vnrs::after{
+    background-image:url(images_out/vnrs_average.png);
+    content:"vnrs";
+}
