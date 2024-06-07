@@ -99,7 +99,7 @@
     height: 184px;
 }
 .head_hash::before{
-    background-image:url(images/hash.png);
+    background-image:url(images/heads/hash.png);
 }
 .head_hash::after{
     background-image:url(images_out/hash_average.png);
@@ -113,7 +113,7 @@
     height: 184px;
 }
 .head_ipa::before{
-    background-image:url(images/ipa.png);
+    background-image:url(images/heads/ipa.png);
 }
 .head_ipa::after{
     background-image:url(images_out/ipa_average.png);
@@ -125,7 +125,7 @@
     height: 184px;
 }
 .head_akoot::before{
-    background-image:url(images/akoot.png);
+    background-image:url(images/heads/akoot.png);
 }
 .head_akoot::after{
     background-image:url(images_out/akoot_average.png);
@@ -137,7 +137,7 @@
     height: 184px;
 }
 .head_xan::before{
-    background-image:url(images/xan.png);
+    background-image:url(images/heads/xan.png);
 }
 .head_xan::after{
     background-image:url(images_out/xan_average.png);
@@ -149,7 +149,7 @@
     height: 184px;
 }
 .head_reno::before{
-    background-image:url(images/reno.png);
+    background-image:url(images/heads/reno.png);
 }
 .head_reno::after{
     background-image:url(images_out/reno_average.png);
@@ -161,7 +161,7 @@
     height: 184px;
 }
 .head_joe::before{
-    background-image:url(images/joe.png);
+    background-image:url(images/heads/joe.png);
 }
 .head_joe::after{
     background-image:url(images_out/joe_average.png);
@@ -173,7 +173,7 @@
     height: 184px;
 }
 .head_snark::before{
-    background-image:url(images/snark.png);
+    background-image:url(images/heads/snark.png);
 }
 .head_snark::after{
     background-image:url(images_out/snark_average.png);
@@ -186,7 +186,7 @@
     height: 184px;
 }
 .head_sego::before{
-    background-image:url(images/sego.png);
+    background-image:url(images/heads/sego.png);
 }
 .head_sego::after{
     background-image:url(images_out/sego_average.png);
@@ -198,7 +198,7 @@
     height: 184px;
 }
 .head_visc::before{
-    background-image:url(images/visc.png);
+    background-image:url(images/heads/visc.png);
 }
 .head_visc::after{
     background-image:url(images_out/visc_average.png);
@@ -210,7 +210,7 @@
     height: 184px;
 }
 .head_rat::before{
-    background-image:url(images/rat.png);
+    background-image:url(images/heads/rat.png);
 }
 .head_rat::after{
     background-image:url(images_out/rat_average.png);
@@ -222,7 +222,7 @@
     height: 184px;
 }
 .head_500am::before{
-    background-image:url(images/500am.png);
+    background-image:url(images/heads/500am.png);
 }
 .head_500am::after{
     background-image:url(images_out/500am_average.png);
@@ -234,7 +234,7 @@
     height: 184px;
 }
 .head_vnrs::before{
-    background-image:url(images/vnrs.png);
+    background-image:url(images/heads/vnrs.png);
 }
 .head_vnrs::after{
     background-image:url(images_out/vnrs_average.png);
@@ -246,7 +246,7 @@
     height: 184px;
 }
 .head_bub::before{
-    background-image:url(images/bub.png);
+    background-image:url(images/heads/bub.png);
 }
 .head_bub::after{
     background-image:url(images_out/bub_average.png);
