@@ -258,11 +258,13 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/picture_box_halloween.png");
+const im = Image.loadImageFromFile("images/heads/cow.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("picture_box_halloween_average");
+avg.save("cow_average");
 
-console.log(im.width/1.5,im.height/1.5);
+console.log(im.width,im.height);
+
+console.log(avg.width,avg.height);
 
