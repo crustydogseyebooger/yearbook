@@ -258,12 +258,12 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/march_laying_3.png");
+const im = Image.loadImageFromFile("images/events/new_years_4.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("march_laying_3");
+avg.save("new_years_4");
 
-console.log(im.width/1.15,im.height/1.15);
+console.log(im.width/1,im.height/1);
 
 
