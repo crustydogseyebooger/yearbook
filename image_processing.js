@@ -258,12 +258,12 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/events/new_years_4.png");
+const im = Image.loadImageFromFile("images/events/sizzle_stand.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("new_years_4");
+avg.save("sizzle_stand");
 
-console.log(im.width/1,im.height/1);
+console.log(im.width/3,im.height/3);
 
 
