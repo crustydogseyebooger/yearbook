@@ -7,7 +7,13 @@
 .event_survivor_1,
 .event_survivor_2,
 .event_ipa_overload,
-.event_sizzle
+.event_sizzle,
+
+.event_end_1,
+.event_end_2,
+.event_march_laying_1,
+.event_march_laying_2,
+.event_march_laying_3
 {
     display: block;
     position: relative;
@@ -21,7 +27,13 @@
 .event_survivor_1::before,
 .event_survivor_2::before,
 .event_ipa_overload::before,
-.event_sizzle::before
+.event_sizzle::before,
+
+.event_end_1::before,
+.event_end_2::before,
+.event_march_laying_1::before,
+.event_march_laying_2::before,
+.event_march_laying_3::before
 {
     content:"";
     top: 0;
@@ -44,7 +56,13 @@
 .event_survivor_1:hover::before,
 .event_survivor_2:hover::before,
 .event_ipa_overload:hover::before,
-.event_sizzle:hover::before
+.event_sizzle:hover::before,
+
+.event_end_1:hover::before,
+.event_end_2Lhover::before,
+.event_march_laying_1:hover::before,
+.event_march_laying_2:hover::before,
+.event_march_laying_3:hover::before
 {
     opacity:0;
 }
@@ -56,7 +74,14 @@
 .event_survivor_1::after,
 .event_survivor_2::after,
 .event_ipa_overload::after,
-.event_sizzle::after
+.event_sizzle::after,
+
+.event_end_1::after,
+.event_end_2::after,
+.event_march_laying_1::after,
+.event_march_laying_2::after,
+.event_march_laying_3::after
+
 {
     opacity: 0.75;
     top: 0;
@@ -167,4 +192,64 @@
 .event_sizzle::after{
     background-image:url(images_out/sizzle_average.png);
     content:"Sizzle War\A Cow and Bubbly fought over ownership to the Sizzle, a popular news publication.";
+}
+
+.event_end_1{
+    width: 770px;
+    height: 401px;
+}
+.event_end_1::before{
+    background-image:url(images/events/end_1.png);
+}
+.event_end_1::after{
+    background-image:url(images_out/end_1_average.png);
+    content:"End Racetrack\A The racetrack in the End was completed. Does anyone use it today?";
+}
+
+.event_end_2{
+    width: 608px;
+    height: 384px;
+}
+.event_end_2::before{
+    background-image:url(images/events/end_2.png);
+}
+.event_end_2::after{
+    background-image:url(images_out/end_2_average.png);
+    content:"End Racetrack\A Extremely dangerous and admittedly gorgeous.";
+}
+
+.event_march_laying_1{
+    width: 364px;
+    height: 364px;
+}
+.event_march_laying_1::before{
+    background-image:url(images/events/march_laying_1.png);
+}
+.event_march_laying_1::after{
+    background-image:url(images_out/march_laying_1_average.png);
+    content:"Akoot laying in the flowers";
+}
+
+.event_march_laying_2{
+    width: 512px;
+    height: 401px;
+}
+.event_march_laying_2::before{
+    background-image:url(images/events/march_laying_2.png);
+}
+.event_march_laying_2::after{
+    background-image:url(images_out/march_laying_2_average.png);
+    content:"Crate and Mahoose laying together";
+}
+
+.event_march_laying_3{
+    width: 733px;
+    height: 389px;
+}
+.event_march_laying_3::before{
+    background-image:url(images/events/march_laying_3.png);
+}
+.event_march_laying_3::after{
+    background-image:url(images_out/march_laying_3_average.png);
+    content:"Mahoose laying on bed";
 }
