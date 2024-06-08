@@ -1,0 +1,374 @@
+/* events */
+
+.event_joe_donalds_1,
+.event_joe_donalds_2,
+.event_min_wage,
+
+.event_hash_1,
+.event_hash_2,
+.event_hash_3,
+.event_hash_4,
+.event_hash_5,
+.event_hash_6,
+.event_hash_7,
+
+.event_wanted,
+.event_bubbly_tnt,
+
+.event_witch_1,
+.event_witch_2,
+.event_witch_3,
+.event_witch_4,
+.event_witch_5,
+.event_witch_6,
+.event_witch_7,
+.event_witch_8
+{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+.event_joe_donalds_1::before,
+.event_joe_donalds_2::before,
+.event_min_wage::before,
+
+.event_hash_1::before,
+.event_hash_2::before,
+.event_hash_3::before,
+.event_hash_4::before,
+.event_hash_5::before,
+.event_hash_6::before,
+.event_hash_7::before,
+
+.event_wanted::before,
+.event_bubbly_tnt::before,
+
+.event_witch_1::before,
+.event_witch_2::before,
+.event_witch_3::before,
+.event_witch_4::before,
+.event_witch_5::before,
+.event_witch_6::before,
+.event_witch_7::before,
+.event_witch_8::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+.event_joe_donalds_1:hover::before,
+.event_joe_donalds_2:hover::before,
+.event_min_wage:hover::before,
+
+.event_hash_1:hover::before,
+.event_hash_2:hover::before,
+.event_hash_3:hover::before,
+.event_hash_4:hover::before,
+.event_hash_5:hover::before,
+.event_hash_6:hover::before,
+.event_hash_7:hover::before,
+
+.event_wanted:hover::before,
+.event_bubbly_tnt:hover::before,
+
+.event_witch_1:hover::before,
+.event_witch_2:hover::before,
+.event_witch_3:hover::before,
+.event_witch_4:hover::before,
+.event_witch_5:hover::before,
+.event_witch_6:hover::before,
+.event_witch_7:hover::before,
+.event_witch_8:hover::before
+{
+    opacity:0;
+}
+
+.event_joe_donalds_1::after,
+.event_joe_donalds_2::after,
+.event_min_wage::after,
+
+.event_hash_1::after,
+.event_hash_2::after,
+.event_hash_3::after,
+.event_hash_4::after,
+.event_hash_5::after,
+.event_hash_6::after,
+.event_hash_7::after,
+
+.event_wanted::after,
+.event_bubbly_tnt::after,
+
+.event_witch_1::after,
+.event_witch_2::after,
+.event_witch_3::after,
+.event_witch_4::after,
+.event_witch_5::after,
+.event_witch_6::after,
+.event_witch_7::after,
+.event_witch_8::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:x-large;
+}
+
+
+.event_joe_donalds_1{
+    width: 560px;
+    height: 424px;
+}
+.event_joe_donalds_1::before{
+    background-image:url(../images/events/joe_donalds_1.png);
+}
+.event_joe_donalds_1::after{
+    background-image:url(../images_out/joe_donalds_1_average.png);
+    content:"Joe Donald's Grand Opening\A Obviously the healthiest food on the server and maybe ever!";
+}
+
+.event_joe_donalds_2{
+    width: 693px;
+    height: 457px;
+}
+.event_joe_donalds_2::before{
+    background-image:url(../images/events/joe_donalds_2.png);
+}
+.event_joe_donalds_2::after{
+    background-image:url(../images_out/joe_donalds_2_average.png);
+    content:"Joe Donald's Interior";
+}
+
+.event_min_wage{
+    width: 590px;
+    height: 402px;
+}
+.event_min_wage::before{
+    background-image:url(../images/events/min_wage.png);
+}
+.event_min_wage::after{
+    background-image:url(../images_out/min_wage_average.png);
+    content:"Two hardworking minimum wage employees\A (same)";
+}
+
+.event_hash_1{
+    width: 590px;
+    height: 381px;
+}
+.event_hash_1::before{
+    background-image:url(../images/events/hash_1.png);
+}
+.event_hash_1::after{
+    background-image:url(../images_out/hash_1_average.png);
+    content:"Hash returns after a chaotic semester";
+}
+
+.event_hash_2{
+    width: 753px;
+    height: 388px;
+}
+.event_hash_2::before{
+    background-image:url(../images/events/hash_2.png);
+}
+.event_hash_2::after{
+    background-image:url(../images_out/hash_2_average.png);
+    content:"Sitting on Hash's thinking couch";
+}
+
+.event_hash_3{
+    width: 744px;
+    height: 355px;
+}
+.event_hash_3::before{
+    background-image:url(../images/events/hash_3.png);
+}
+.event_hash_3::after{
+    background-image:url(../images_out/hash_3_average.png);
+    content:"Hash's lush cave";
+}
+
+.event_hash_4{
+    width: 263px;
+    height: 411px;
+}
+.event_hash_4::before{
+    background-image:url(../images/events/hash_4.png);
+}
+.event_hash_4::after{
+    background-image:url(../images_out/hash_4_average.png);
+    content:"Flying around";
+}
+
+.event_hash_5{
+    width: 451px;
+    height: 306px;
+}
+.event_hash_5::before{
+    background-image:url(../images/events/hash_5.png);
+}
+.event_hash_5::after{
+    background-image:url(../images_out/hash_5_average.png);
+    content:"Hanging out at Mahoose's bakery";
+}
+
+.event_hash_6{
+    width: 537px;
+    height: 253px;
+}
+.event_hash_6::before{
+    background-image:url(../images/events/hash_6.png);
+}
+.event_hash_6::after{
+    background-image:url(../images_out/hash_6_average.png);
+    content:"Cactus cooler \A IPA's drink of choice";
+}
+
+.event_hash_7{
+    width: 657px;
+    height: 341px;
+}
+.event_hash_7::before{
+    background-image:url(../images/events/hash_7.png);
+}
+.event_hash_7::after{
+    background-image:url(../images_out/hash_7_average.png);
+    content:"Hash's base, designed by Xan";
+}
+
+.event_wanted{
+    width: 511px;
+    height: 413px;
+}
+.event_wanted::before{
+    background-image:url(../images/events/wanted.png);
+}
+.event_wanted::after{
+    background-image:url(../images_out/wanted_average.png);
+    content:"No caption needed.";
+}
+
+.event_bubbly_tnt{
+    width: 443px;
+    height: 398px;
+}
+.event_bubbly_tnt::before{
+    background-image:url(../images/events/bubbly_tnt.png);
+}
+.event_bubbly_tnt::after{
+    background-image:url(../images_out/bubbly_tnt_average.png);
+    content:"We totally didn't see it off...";
+}
+
+.event_witch_1{
+    width: 197px;
+    height: 392px;
+}
+.event_witch_1::before{
+    background-image:url(../images/events/witch_1.png);
+}
+.event_witch_1::after{
+    background-image:url(../images_out/witch_1_average.png);
+    content:"We found a pink sheep before the double hut";
+}
+
+.event_witch_2{
+    width: 521px;
+    height: 363px;
+}
+.event_witch_2::before{
+    background-image:url(../images/events/witch_2.png);
+}
+.event_witch_2::after{
+    background-image:url(../images_out/witch_2_average.png);
+    content:"When IPA left us";
+}
+
+.event_witch_3{
+    width: 487px;
+    height: 307px;
+}
+.event_witch_3::before{
+    background-image:url(../images/events/witch_3.png);
+}
+.event_witch_3::after{
+    background-image:url(../images_out/witch_3_average.png);
+    content:"Hash not beating the witch allegations";
+}
+
+.event_witch_4{
+    width: 569px;
+    height: 375px;
+}
+.event_witch_4::before{
+    background-image:url(../images/events/witch_4.png);
+}
+.event_witch_4::after{
+    background-image:url(../images_out/witch_4_average.png);
+    content:"IPA's vacation house";
+}
+
+.event_witch_5{
+    width: 280px;
+    height: 475px;
+}
+.event_witch_5::before{
+    background-image:url(../images/events/witch_5.png);
+}
+.event_witch_5::after{
+    background-image:url(../images_out/witch_5_average.png);
+    content:"More flying around \A We were losing hope...";
+}
+
+.event_witch_6{
+    width: 532px;
+    height: 407px;
+}
+.event_witch_6::before{
+    background-image:url(../images/events/witch_6.png);
+}
+.event_witch_6::after{
+    background-image:url(../images_out/witch_6_average.png);
+    content:"We had to feel something.";
+}
+
+.event_witch_7{
+    width: 342px;
+    height: 263px;
+}
+.event_witch_7::before{
+    background-image:url(../images/events/witch_7.png);
+}
+.event_witch_7::after{
+    background-image:url(../images_out/witch_7_average.png);
+    content:"Maybe the most cinematic picture I've taken \A I still don't know how this happened...";
+}
+
+.event_witch_8{
+    width: 453px;
+    height: 267px;
+}
+.event_witch_8::before{
+    background-image:url(../images/events/witch_8.png);
+}
+.event_witch_8::after{
+    background-image:url(../images_out/witch_8_average.png);
+    content:"Meeting room \A At the Base of Ops (Operations)";
+}
