@@ -83,7 +83,7 @@
 }
 .misc_akoots::after{
     background-image:url(../images_out/akoots_average.png);
-    content:"Multiple Akoots \A Yikes!";
+    content:"Multiple Akoots";
 }
 
 .misc_double_akoots{

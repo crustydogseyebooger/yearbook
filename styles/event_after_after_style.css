@@ -166,7 +166,7 @@
 }
 .event_min_wage::after{
     background-image:url(../images_out/min_wage_average.png);
-    content:"Two hardworking minimum wage employees\A (same)";
+    content:"Two hardworking minimum wage employees";
 }
 
 .event_hash_1{

@@ -175,7 +175,7 @@
 }
 .event_survivor_1::after{
     background-image:url(../images_out/survivor_1_average.png);
-    content:"Survivor Minigame\A Skyblock with PVP and amazing redstone engineering by Crate and Ipa";
+    content:"Survivor Minigame\A Skyblock with PVP and amazing redstone engineering by Crate and IPA";
 }
 
 .event_survivor_2{
@@ -199,7 +199,7 @@
 }
 .event_ipa_overload::after{
     background-image:url(../images_out/ipa_overload_average.png);
-    content:"Ipa's Playerheads\A The sign is right.";
+    content:"IPA's Playerheads\A The sign is right.";
 }
 
 .event_sizzle{
