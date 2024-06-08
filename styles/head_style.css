@@ -30,7 +30,8 @@
 .head_tara,
 .head_fatty,
 .head_witch,
-.head_noot
+.head_noot,
+.head_yfd
 {
     display: block;
     position: relative;
@@ -67,7 +68,8 @@
 .head_tara::before,
 .head_fatty::before,
 .head_witch::before,
-.head_noot::before
+.head_noot::before,
+.head_yfd::before
 {
     content:"";
     top: 0;
@@ -113,7 +115,8 @@
 .head_tara:hover::before,
 .head_fatty:hover::before,
 .head_witch:hover::before,
-.head_noot:hover::before
+.head_noot:hover::before,
+.head_yfd:hover::before
 {
     opacity:0;
 }
@@ -148,7 +151,8 @@
 .head_tara::after,
 .head_fatty::after,
 .head_witch::after,
-.head_noot::after
+.head_noot::after,
+.head_yfd::after
 {
     opacity: 0.75;
     top: 0;
@@ -559,5 +563,19 @@
 .head_noot::after{
     background-image:url(../images_out/noot_average.png);
     content:"soggynoot";
+    font-size:x-large;
+}
+
+.head_yfd{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_yfd::before{
+    background-image:url(../images/heads/yfd.png);
+}
+.head_yfd::after{
+    background-image:url(../images_out/yfd_average.png);
+    content:"_yfd";
     font-size:x-large;
 }
