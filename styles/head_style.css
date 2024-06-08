@@ -25,7 +25,11 @@
 .head_yamda,
 .head_zap,
 .head_big,
-.head_star
+.head_star,
+.head_may,
+.head_tara,
+.head_fatty,
+.head_witch
 {
     display: block;
     position: relative;
@@ -57,7 +61,11 @@
 .head_yamda::before,
 .head_zap::before,
 .head_big::before,
-.head_star::before
+.head_star::before,
+.head_may::before,
+.head_tara::before,
+.head_fatty::before,
+.head_witch::before
 {
     content:"";
     top: 0;
@@ -98,7 +106,11 @@
 .head_yamda:hover::before,
 .head_zap:hover::before,
 .head_big:hover::before,
-.head_star:hover::before
+.head_star:hover::before,
+.head_may:hover::before,
+.head_tara:hover::before,
+.head_fatty:hover::before,
+.head_witch:hover::before
 {
     opacity:0;
 }
@@ -128,7 +140,11 @@
 .head_yamda::after,
 .head_zap::after,
 .head_big::after,
-.head_star::after
+.head_star::after,
+.head_may::after,
+.head_tara::after,
+.head_fatty::after,
+.head_witch::after
 {
     opacity: 0.75;
     top: 0;
@@ -469,5 +485,61 @@
 .head_star::after{
     background-image:url(../images_out/star_average.png);
     content:"ECstardust";
+    font-size:large;
+}
+
+.head_may{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_may::before{
+    background-image:url(../images/heads/may.png);
+}
+.head_may::after{
+    background-image:url(../images_out/may_average.png);
+    content:"mayzface";
+    font-size:large;
+}
+
+.head_tara{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_tara::before{
+    background-image:url(../images/heads/tara.png);
+}
+.head_tara::after{
+    background-image:url(../images_out/tara_average.png);
+    content:"Tara_Dickov";
+    font-size:large;
+}
+
+.head_fatty{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_fatty::before{
+    background-image:url(../images/heads/fatty.png);
+}
+.head_fatty::after{
+    background-image:url(../images_out/fatty_average.png);
+    content:"FattyJubJub";
+    font-size:large;
+}
+
+.head_witch{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_witch::before{
+    background-image:url(../images/heads/witch.png);
+}
+.head_witch::after{
+    background-image:url(../images_out/witch_average.png);
+    content:"_witch_craft_";
     font-size:large;
 }
