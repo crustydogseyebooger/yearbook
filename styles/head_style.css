@@ -152,10 +152,10 @@
     height: 184px;
 }
 .head_hash::before{
-    background-image:url(images/heads/hash.png);
+    background-image:url(../images/heads/hash.png);
 }
 .head_hash::after{
-    background-image:url(images_out/hash_average.png);
+    background-image:url(../images_out/hash_average.png);
     content:"lilhashbrown";
 } 
 
@@ -164,10 +164,10 @@
     height: 184px;
 }
 .head_ipa::before{
-    background-image:url(images/heads/ipa.png);
+    background-image:url(../images/heads/ipa.png);
 }
 .head_ipa::after{
-    background-image:url(images_out/ipa_average.png);
+    background-image:url(../images_out/ipa_average.png);
     content:"IndiaPaleAle";
 }
 
@@ -176,10 +176,10 @@
     height: 184px;
 }
 .head_akoot::before{
-    background-image:url(images/heads/akoot.png);
+    background-image:url(../images/heads/akoot.png);
 }
 .head_akoot::after{
-    background-image:url(images_out/akoot_average.png);
+    background-image:url(../images_out/akoot_average.png);
     content:"Akoot_";
 }
 
@@ -188,10 +188,10 @@
     height: 184px;
 }
 .head_xan::before{
-    background-image:url(images/heads/xan.png);
+    background-image:url(../images/heads/xan.png);
 }
 .head_xan::after{
-    background-image:url(images_out/xan_average.png);
+    background-image:url(../images_out/xan_average.png);
     content:"Xanxus542";
 }
 
@@ -200,10 +200,10 @@
     height: 184px;
 }
 .head_reno::before{
-    background-image:url(images/heads/reno.png);
+    background-image:url(../images/heads/reno.png);
 }
 .head_reno::after{
-    background-image:url(images_out/reno_average.png);
+    background-image:url(../images_out/reno_average.png);
     content:"cuddlyMonster";
 }
 
@@ -212,10 +212,10 @@
     height: 184px;
 }
 .head_joe::before{
-    background-image:url(images/heads/joe.png);
+    background-image:url(../images/heads/joe.png);
 }
 .head_joe::after{
-    background-image:url(images_out/joe_average.png);
+    background-image:url(../images_out/joe_average.png);
     content:"joethahobo";
 }
 
@@ -224,10 +224,10 @@
     height: 184px;
 }
 .head_snark::before{
-    background-image:url(images/heads/snark.png);
+    background-image:url(../images/heads/snark.png);
 }
 .head_snark::after{
-    background-image:url(images_out/snark_average.png);
+    background-image:url(../images_out/snark_average.png);
     content:"SnarKaizer";
 }
 
@@ -237,10 +237,10 @@
     height: 184px;
 }
 .head_sego::before{
-    background-image:url(images/heads/sego.png);
+    background-image:url(../images/heads/sego.png);
 }
 .head_sego::after{
-    background-image:url(images_out/sego_average.png);
+    background-image:url(../images_out/sego_average.png);
     content:"Segotep999";
 }
 
@@ -249,10 +249,10 @@
     height: 184px;
 }
 .head_visc::before{
-    background-image:url(images/heads/visc.png);
+    background-image:url(../images/heads/visc.png);
 }
 .head_visc::after{
-    background-image:url(images_out/visc_average.png);
+    background-image:url(../images_out/visc_average.png);
     content:"Viscalis";
 }
 
@@ -261,10 +261,10 @@
     height: 184px;
 }
 .head_rat::before{
-    background-image:url(images/heads/rat.png);
+    background-image:url(../images/heads/rat.png);
 }
 .head_rat::after{
-    background-image:url(images_out/rat_average.png);
+    background-image:url(../images_out/rat_average.png);
     content:"Prince_Rat";
 }
 
@@ -273,10 +273,10 @@
     height: 184px;
 }
 .head_500am::before{
-    background-image:url(images/heads/500am.png);
+    background-image:url(../images/heads/500am.png);
 }
 .head_500am::after{
-    background-image:url(images_out/500am_average.png);
+    background-image:url(../images_out/500am_average.png);
     content:"500am";
 }
 
@@ -285,10 +285,10 @@
     height: 184px;
 }
 .head_vnrs::before{
-    background-image:url(images/heads/vnrs.png);
+    background-image:url(../images/heads/vnrs.png);
 }
 .head_vnrs::after{
-    background-image:url(images_out/vnrs_average.png);
+    background-image:url(../images_out/vnrs_average.png);
     content:"vnrs";
 }
 
@@ -297,10 +297,10 @@
     height: 184px;
 }
 .head_bub::before{
-    background-image:url(images/heads/bub.png);
+    background-image:url(../images/heads/bub.png);
 }
 .head_bub::after{
-    background-image:url(images_out/bub_average.png);
+    background-image:url(../images_out/bub_average.png);
     content:"BubblyPrototype";
     font-size:large;
 }
@@ -310,10 +310,10 @@
     height: 184px;
 }
 .head_jozef::before{
-    background-image:url(images/heads/jozef.png);
+    background-image:url(../images/heads/jozef.png);
 }
 .head_jozef::after{
-    background-image:url(images_out/jozef_average.png);
+    background-image:url(../images_out/jozef_average.png);
     content:"jozef45";
     font-size:large;
 }
@@ -324,10 +324,10 @@
     
 }
 .head_cow::before{
-    background-image:url(images/heads/cow.png);
+    background-image:url(../images/heads/cow.png);
 }
 .head_cow::after{
-    background-image:url(images_out/cow_average.png);
+    background-image:url(../images_out/cow_average.png);
     content:"ExcitedCow494";
     font-size:large;
 }
@@ -338,10 +338,10 @@
     
 }
 .head_neoma::before{
-    background-image:url(images/heads/neoma.png);
+    background-image:url(../images/heads/neoma.png);
 }
 .head_neoma::after{
-    background-image:url(images_out/neoma_average.png);
+    background-image:url(../images_out/neoma_average.png);
     content:"Neoma__";
     font-size:x-large;
 }
@@ -352,10 +352,10 @@
     
 }
 .head_harpy::before{
-    background-image:url(images/heads/harpy.png);
+    background-image:url(../images/heads/harpy.png);
 }
 .head_harpy::after{
-    background-image:url(images_out/harpy_average.png);
+    background-image:url(../images_out/harpy_average.png);
     content:"Spacewardharpy7";
     font-size:large;
 }
@@ -366,10 +366,10 @@
     
 }
 .head_mahoose::before{
-    background-image:url(images/heads/mahoose.png);
+    background-image:url(../images/heads/mahoose.png);
 }
 .head_mahoose::after{
-    background-image:url(images_out/mahoose_average.png);
+    background-image:url(../images_out/mahoose_average.png);
     content:"Mahoose";
     font-size:x-large;
 }
@@ -380,10 +380,10 @@
     
 }
 .head_men::before{
-    background-image:url(images/heads/men.png);
+    background-image:url(../images/heads/men.png);
 }
 .head_men::after{
-    background-image:url(images_out/men_average.png);
+    background-image:url(../images_out/men_average.png);
     content:"MenKissing";
     font-size:x-large;
 }
@@ -394,10 +394,10 @@
     
 }
 .head_women::before{
-    background-image:url(images/heads/women.png);
+    background-image:url(../images/heads/women.png);
 }
 .head_women::after{
-    background-image:url(images_out/women_average.png);
+    background-image:url(../images_out/women_average.png);
     content:"WomenKissing";
     font-size:x-large;
 }
@@ -408,10 +408,10 @@
     
 }
 .head_yamda::before{
-    background-image:url(images/heads/yamda.png);
+    background-image:url(../images/heads/yamda.png);
 }
 .head_yamda::after{
-    background-image:url(images_out/yamda_average.png);
+    background-image:url(../images_out/yamda_average.png);
     content:"Yamdalorian";
     font-size:x-large;
 }
@@ -422,10 +422,10 @@
     
 }
 .head_zap::before{
-    background-image:url(images/heads/zap.png);
+    background-image:url(../images/heads/zap.png);
 }
 .head_zap::after{
-    background-image:url(images_out/zap_average.png);
+    background-image:url(../images_out/zap_average.png);
     content:"Zaoper";
     font-size:x-large;
 }
@@ -436,10 +436,10 @@
     
 }
 .head_big::before{
-    background-image:url(images/heads/big.png);
+    background-image:url(../images/heads/big.png);
 }
 .head_big::after{
-    background-image:url(images_out/big_average.png);
+    background-image:url(../images_out/big_average.png);
     content:"BiggWang";
     font-size:x-large;
 }
@@ -450,10 +450,10 @@
     
 }
 .head_nova::before{
-    background-image:url(images/heads/nova.png);
+    background-image:url(../images/heads/nova.png);
 }
 .head_nova::after{
-    background-image:url(images_out/nova_average.png);
+    background-image:url(../images_out/nova_average.png);
     content:"ApophisNova";
     font-size:large;
 }
@@ -464,10 +464,10 @@
     
 }
 .head_star::before{
-    background-image:url(images/heads/star.png);
+    background-image:url(../images/heads/star.png);
 }
 .head_star::after{
-    background-image:url(images_out/star_average.png);
+    background-image:url(../images_out/star_average.png);
     content:"ECstardust";
     font-size:large;
 }

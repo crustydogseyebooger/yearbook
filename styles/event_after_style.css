@@ -103,10 +103,10 @@
     height: 460px;
 }
 .event_wedding_1::before{
-    background-image:url(images/events/wedding_1.png);
+    background-image:url(../images/events/wedding_1.png);
 }
 .event_wedding_1::after{
-    background-image:url(images_out/wedding_1_average.png);
+    background-image:url(../images_out/wedding_1_average.png);
     content:"Akoot & Co. Wedding\A I believe this was Bubbly and Two's wedding \A Venue built by Crate.";
 }
 
@@ -115,10 +115,10 @@
     height: 416px;
 }
 .event_wedding_2::before{
-    background-image:url(images/events/wedding_2.png);
+    background-image:url(../images/events/wedding_2.png);
 }
 .event_wedding_2::after{
-    background-image:url(images_out/wedding_2_average.png);
+    background-image:url(../images_out/wedding_2_average.png);
     content:"Akoot & Co. Wedding\A I don't remember if the marriage plugin was actually working...";
 }
 
@@ -127,10 +127,10 @@
     height: 421px;
 }
 .event_flower_fight_1::before{
-    background-image:url(images/events/flower_fight_1.png);
+    background-image:url(../images/events/flower_fight_1.png);
 }
 .event_flower_fight_1::after{
-    background-image:url(images_out/flower_fight_1_average.png);
+    background-image:url(../images_out/flower_fight_1_average.png);
     content:"Flower Fight Arena\A Take off your armor. Shake my hand. Go!";
 }
 
@@ -139,10 +139,10 @@
     height: 375px;
 }
 .event_flower_fight_2::before{
-    background-image:url(images/events/flower_fight_2.png);
+    background-image:url(../images/events/flower_fight_2.png);
 }
 .event_flower_fight_2::after{
-    background-image:url(images_out/flower_fight_2_average.png);
+    background-image:url(../images_out/flower_fight_2_average.png);
     content:"Flower Fight Arena\A Too bad someone removed it... how sad.";
 }
 
@@ -151,10 +151,10 @@
     height: 367px;
 }
 .event_survivor_1::before{
-    background-image:url(images/events/survivor_1.png);
+    background-image:url(../images/events/survivor_1.png);
 }
 .event_survivor_1::after{
-    background-image:url(images_out/survivor_1_average.png);
+    background-image:url(../images_out/survivor_1_average.png);
     content:"Survivor Minigame\A Skyblock with PVP and amazing redstone engineering by Crate and Ipa";
 }
 
@@ -163,10 +163,10 @@
     height: 277px;
 }
 .event_survivor_2::before{
-    background-image:url(images/events/survivor_2.png);
+    background-image:url(../images/events/survivor_2.png);
 }
 .event_survivor_2::after{
-    background-image:url(images_out/survivor_2_average.png);
+    background-image:url(../images_out/survivor_2_average.png);
     content:"Survivor Minigame\A This game literally made my laptop explode every time it was run!";
 }
 
@@ -175,10 +175,10 @@
     height: 441px;
 }
 .event_ipa_overload::before{
-    background-image:url(images/events/ipa_overload.png);
+    background-image:url(../images/events/ipa_overload.png);
 }
 .event_ipa_overload::after{
-    background-image:url(images_out/ipa_overload_average.png);
+    background-image:url(../images_out/ipa_overload_average.png);
     content:"Ipa's Playerheads\A The sign is right.";
 }
 
@@ -187,10 +187,10 @@
     height: 720px;
 }
 .event_sizzle::before{
-    background-image:url(images/events/sizzle.png);
+    background-image:url(../images/events/sizzle.png);
 }
 .event_sizzle::after{
-    background-image:url(images_out/sizzle_average.png);
+    background-image:url(../images_out/sizzle_average.png);
     content:"Sizzle War\A Cow and Bubbly fought over ownership to the Sizzle, a popular news publication.";
 }
 
@@ -199,10 +199,10 @@
     height: 401px;
 }
 .event_end_1::before{
-    background-image:url(images/events/end_1.png);
+    background-image:url(../images/events/end_1.png);
 }
 .event_end_1::after{
-    background-image:url(images_out/end_1_average.png);
+    background-image:url(../images_out/end_1_average.png);
     content:"End Racetrack\A The racetrack in the End was completed. Does anyone use it today?";
 }
 
@@ -211,10 +211,10 @@
     height: 384px;
 }
 .event_end_2::before{
-    background-image:url(images/events/end_2.png);
+    background-image:url(../images/events/end_2.png);
 }
 .event_end_2::after{
-    background-image:url(images_out/end_2_average.png);
+    background-image:url(../images_out/end_2_average.png);
     content:"End Racetrack\A Extremely dangerous and admittedly gorgeous.";
 }
 
@@ -223,10 +223,10 @@
     height: 364px;
 }
 .event_march_laying_1::before{
-    background-image:url(images/events/march_laying_1.png);
+    background-image:url(../images/events/march_laying_1.png);
 }
 .event_march_laying_1::after{
-    background-image:url(images_out/march_laying_1_average.png);
+    background-image:url(../images_out/march_laying_1_average.png);
     content:"Akoot laying in the flowers";
 }
 
@@ -235,10 +235,10 @@
     height: 401px;
 }
 .event_march_laying_2::before{
-    background-image:url(images/events/march_laying_2.png);
+    background-image:url(../images/events/march_laying_2.png);
 }
 .event_march_laying_2::after{
-    background-image:url(images_out/march_laying_2_average.png);
+    background-image:url(../images_out/march_laying_2_average.png);
     content:"Crate and Mahoose laying together";
 }
 
@@ -247,9 +247,9 @@
     height: 389px;
 }
 .event_march_laying_3::before{
-    background-image:url(images/events/march_laying_3.png);
+    background-image:url(../images/events/march_laying_3.png);
 }
 .event_march_laying_3::after{
-    background-image:url(images_out/march_laying_3_average.png);
+    background-image:url(../images_out/march_laying_3_average.png);
     content:"Mahoose laying on bed";
 }

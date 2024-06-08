@@ -67,10 +67,10 @@
     height: 328px;
 }
 .misc_akoot_friends_sitting::before{
-    background-image:url(images/misc/akoot_friends_sitting.png);
+    background-image:url(../images/misc/akoot_friends_sitting.png);
 }
 .misc_akoot_friends_sitting::after{
-    background-image:url(images_out/akoot_friends_sitting_average.png);
+    background-image:url(../images_out/akoot_friends_sitting_average.png);
     content:"Akoot sitting with friends";
 }
 
@@ -79,10 +79,10 @@
     height: 323px;
 }
 .misc_akoots::before{
-    background-image:url(images/misc/akoots.png);
+    background-image:url(../images/misc/akoots.png);
 }
 .misc_akoots::after{
-    background-image:url(images_out/akoots_average.png);
+    background-image:url(../images_out/akoots_average.png);
     content:"Multiple Akoots \A Yikes!";
 }
 
@@ -91,10 +91,10 @@
     height: 340px;
 }
 .misc_double_akoots::before{
-    background-image:url(images/misc/double_akoots.png);
+    background-image:url(../images/misc/double_akoots.png);
 }
 .misc_double_akoots::after{
-    background-image:url(images_out/double_akoots_average.png);
+    background-image:url(../images_out/double_akoots_average.png);
     content:"Double Akoots \A Twin, where have you been?";
 }
 
@@ -103,10 +103,10 @@
     height: 383px;
 }
 .misc_maltsburg_roads::before{
-    background-image:url(images/misc/maltsburg_roads.png);
+    background-image:url(../images/misc/maltsburg_roads.png);
 }
 .misc_maltsburg_roads::after{
-    background-image:url(images_out/maltsburg_roads_average.png);
+    background-image:url(../images_out/maltsburg_roads_average.png);
     content:"Construction of Maltsburg Roads \A This was before it was overtaken by rats...";
 }
 
@@ -116,9 +116,9 @@
     height: 456px;
 }
 .misc_sego_house_purchase::before{
-    background-image:url(images/misc/sego_house_purchase.png);
+    background-image:url(../images/misc/sego_house_purchase.png);
 }
 .misc_sego_house_purchase::after{
-    background-image:url(images_out/sego_house_purchase_average.png);
+    background-image:url(../images_out/sego_house_purchase_average.png);
     content:"Sego buys a house \A I wonder how much it costed him.";
 }

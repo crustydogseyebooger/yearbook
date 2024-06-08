@@ -94,10 +94,10 @@
     height: 356px;
 }
 .build_hash_new_base::before{
-    background-image:url(images/notable_builds/hash_new_base.png);
+    background-image:url(../images/notable_builds/hash_new_base.png);
 }
 .build_hash_new_base::after{
-    background-image:url(images_out/hash_average.png);
+    background-image:url(../images_out/hash_average.png);
     content:"Hash's new base\A Some have called it sinister and negative,\A but it was always meant to be cozy";
 }
 
@@ -106,10 +106,10 @@
     height: 406px;
 }
 .build_500am_base::before{
-    background-image:url(images/notable_builds/500am_base.png);
+    background-image:url(../images/notable_builds/500am_base.png);
 }
 .build_500am_base::after{
-    background-image:url(images_out/500am_base_average.png);
+    background-image:url(../images_out/500am_base_average.png);
     content:"500am's base\A Literally one of the grandest buildings on the server";
 }
 
@@ -118,10 +118,10 @@
     height: 463px;
 }
 .build_mail::before{
-    background-image:url(images/notable_builds/mail.png);
+    background-image:url(../images/notable_builds/mail.png);
 }
 .build_mail::after{
-    background-image:url(images_out/mail_average.png);
+    background-image:url(../images_out/mail_average.png);
     content:"Post Office\A Have you recieved mail?";
 }
 
@@ -130,10 +130,10 @@
     height: 419px;
 }
 .build_reno_tea_room::before{
-    background-image:url(images/notable_builds/reno_tea_room.png);
+    background-image:url(../images/notable_builds/reno_tea_room.png);
 }
 .build_reno_tea_room::after{
-    background-image:url(images_out/reno_tea_room_average.png);
+    background-image:url(../images_out/reno_tea_room_average.png);
     content:"Reno's Tea Room\A Pretty and pink, located at Pink House";
 }
 
@@ -143,10 +143,10 @@
     height: 329px;
 }
 .build_prince_rat_axolotls::before{
-    background-image:url(images/notable_builds/prince_rat_axolotls.png);
+    background-image:url(../images/notable_builds/prince_rat_axolotls.png);
 }
 .build_prince_rat_axolotls::after{
-    background-image:url(images_out/prince_rat_axolotls_average.png);
+    background-image:url(../images_out/prince_rat_axolotls_average.png);
     content:"Prince Rat's Axolotls\A Does he have every color?\A Does he have more than Hash?";
 }
 
@@ -155,10 +155,10 @@
     height: 376px;
 }
 .build_pink_spawn::before{
-    background-image:url(images/notable_builds/pink_spawn.png);
+    background-image:url(../images/notable_builds/pink_spawn.png);
 }
 .build_pink_spawn::after{
-    background-image:url(images_out/pink_spawn_average.png);
+    background-image:url(../images_out/pink_spawn_average.png);
     content:"Pink Spawn\A Turned pink prior to Hash's return by Pirk";
 }
 
@@ -167,10 +167,10 @@
     height: 403px;
 }
 .build_aedan_house::before{
-    background-image:url(images/notable_builds/aedan_house.png);
+    background-image:url(../images/notable_builds/aedan_house.png);
 }
 .build_aedan_house::after{
-    background-image:url(images_out/aedan_house_average.png);
+    background-image:url(../images_out/aedan_house_average.png);
     content:"Aedan's House\A Looks like it's in Maltsburg";
 }
 
@@ -179,10 +179,10 @@
     height: 337px;
 }
 .build_joe_utopia::before{
-    background-image:url(images/notable_builds/joe_utopia.png);
+    background-image:url(../images/notable_builds/joe_utopia.png);
 }
 .build_joe_utopia::after{
-    background-image:url(images_out/joe_utopia_average.png);
+    background-image:url(../images_out/joe_utopia_average.png);
     content:"Joe's Uptopia\A But where is the individualism?";
 }
 
@@ -191,10 +191,10 @@
     height: 410px;
 }
 .build_demon::before{
-    background-image:url(images/notable_builds/demon.png);
+    background-image:url(../images/notable_builds/demon.png);
 }
 .build_demon::after{
-    background-image:url(images_out/demon_average.png);
+    background-image:url(../images_out/demon_average.png);
     content:"Tara and Jub's Build\A This is actually so cool like? So cool.";
 }
 
@@ -203,10 +203,10 @@
     height: 392px;
 }
 .build_dreamwick::before{
-    background-image:url(images/notable_builds/dreamwick.png);
+    background-image:url(../images/notable_builds/dreamwick.png);
 }
 .build_dreamwick::after{
-    background-image:url(images_out/dreamwick_average.png);
+    background-image:url(../images_out/dreamwick_average.png);
     content:"Pirk'sDreamwick\A Pirk's medieval town, one of the coolest ever";
 }
 
@@ -215,10 +215,10 @@
     height: 410px;
 }
 .build_tatooine::before{
-    background-image:url(images/notable_builds/tatooine.png);
+    background-image:url(../images/notable_builds/tatooine.png);
 }
 .build_tatooine::after{
-    background-image:url(images_out/tatooine_average.png);
+    background-image:url(../images_out/tatooine_average.png);
     content:"Joe's Tatooine\A A Star Wars inspired build";
 }
 
@@ -227,9 +227,9 @@
     height: 406px;
 }
 .build_joe_city::before{
-    background-image:url(images/notable_builds/joe_city.png);
+    background-image:url(../images/notable_builds/joe_city.png);
 }
 .build_joe_city::after{
-    background-image:url(images_out/joe_city_average.png);
+    background-image:url(../images_out/joe_city_average.png);
     content:"Joe's City\A A modern city with a New York fee";
 }
