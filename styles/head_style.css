@@ -29,7 +29,8 @@
 .head_may,
 .head_tara,
 .head_fatty,
-.head_witch
+.head_witch,
+.head_noot
 {
     display: block;
     position: relative;
@@ -65,7 +66,8 @@
 .head_may::before,
 .head_tara::before,
 .head_fatty::before,
-.head_witch::before
+.head_witch::before,
+.head_noot::before
 {
     content:"";
     top: 0;
@@ -110,7 +112,8 @@
 .head_may:hover::before,
 .head_tara:hover::before,
 .head_fatty:hover::before,
-.head_witch:hover::before
+.head_witch:hover::before,
+.head_noot:hover::before
 {
     opacity:0;
 }
@@ -144,7 +147,8 @@
 .head_may::after,
 .head_tara::after,
 .head_fatty::after,
-.head_witch::after
+.head_witch::after,
+.head_noot::after
 {
     opacity: 0.75;
     top: 0;
@@ -499,7 +503,7 @@
 .head_may::after{
     background-image:url(../images_out/may_average.png);
     content:"mayzface";
-    font-size:large;
+    font-size:x-large;
 }
 
 .head_tara{
@@ -513,7 +517,7 @@
 .head_tara::after{
     background-image:url(../images_out/tara_average.png);
     content:"Tara_Dickov";
-    font-size:large;
+    font-size:x-large;
 }
 
 .head_fatty{
@@ -527,7 +531,7 @@
 .head_fatty::after{
     background-image:url(../images_out/fatty_average.png);
     content:"FattyJubJub";
-    font-size:large;
+    font-size:x-large;
 }
 
 .head_witch{
@@ -541,5 +545,19 @@
 .head_witch::after{
     background-image:url(../images_out/witch_average.png);
     content:"_witch_craft_";
-    font-size:large;
+    font-size:x-large;
+}
+
+.head_noot{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_noot::before{
+    background-image:url(../images/heads/noot.png);
+}
+.head_noot::after{
+    background-image:url(../images_out/noot_average.png);
+    content:"soggynoot";
+    font-size:x-large;
 }

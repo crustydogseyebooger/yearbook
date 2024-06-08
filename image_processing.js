@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/heads/witch.png");
+const im = Image.loadImageFromFile("images/heads/noot.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("witch");
+avg.save("noot");
 
 console.log(im.width/1,im.height/1);
 
