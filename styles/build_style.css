@@ -11,7 +11,8 @@
 .build_demon,
 .build_dreamwick,
 .build_tatooine,
-.build_joe_city
+.build_joe_city,
+.build_graveyard
 {
     display: block;
     position: relative;
@@ -29,7 +30,8 @@
 .build_demon::before,
 .build_dreamwick::before,
 .build_tatooine::before,
-.build_joe_city::before
+.build_joe_city::before,
+.build_graveyard::before
 {
     content:"";
     top: 0;
@@ -56,7 +58,8 @@
 .build_demon:hover::before,
 .build_dreamwick:hover::before,
 .build_tatooine:hover::before,
-.build_joe_city:hover::before
+.build_joe_city:hover::before,
+.build_graveyard:hover::before
 {
     opacity:0;
 }
@@ -72,7 +75,8 @@
 .build_demon::after,
 .build_dreamwick::after,
 .build_tatooine::after,
-.build_joe_city::after
+.build_joe_city::after,
+.build_graveyard::after
 {
     opacity: 0.75;
     top: 0;
@@ -223,8 +227,8 @@
 }
 
 .build_joe_city{
-    width: 768px;
-    height: 406px;
+    width: 724px;
+    height: 383px;
 }
 .build_joe_city::before{
     background-image:url(../images/notable_builds/joe_city.png);
@@ -232,4 +236,16 @@
 .build_joe_city::after{
     background-image:url(../images_out/joe_city_average.png);
     content:"Joe's City\A A modern city with a New York feel";
+}
+
+.build_graveyard{
+    width: 698px;
+    height:369px;
+}
+.build_graveyard::before{
+    background-image:url(../images/notable_builds/graveyard.png);
+}
+.build_graveyard::after{
+    background-image:url(../images_out/graveyard_average.png);
+    content:"Personae Non Gratae \A God rest their souls from this needless torment"
 }
