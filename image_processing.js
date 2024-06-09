@@ -258,12 +258,12 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/notable_builds/joe_city.png");
+const im = Image.loadImageFromFile("images/heads/tac.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("joe_city");
+avg.save("tac");
 
-console.log(im.width/2.75,im.height/2.75);
+console.log(im.width/1,im.height/1);
 
 

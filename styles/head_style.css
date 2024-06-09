@@ -31,7 +31,11 @@
 .head_fatty,
 .head_witch,
 .head_noot,
-.head_yfd
+.head_yfd,
+.head_sailor,
+.head_tac,
+.head_fan,
+.head_beet
 {
     display: block;
     position: relative;
@@ -69,7 +73,11 @@
 .head_fatty::before,
 .head_witch::before,
 .head_noot::before,
-.head_yfd::before
+.head_yfd::before,
+.head_sailor::before,
+.head_tac::before,
+.head_fan::before,
+.head_beet::before
 {
     content:"";
     top: 0;
@@ -116,7 +124,11 @@
 .head_fatty:hover::before,
 .head_witch:hover::before,
 .head_noot:hover::before,
-.head_yfd:hover::before
+.head_yfd:hover::before,
+.head_sailor:hover::before,
+.head_tac:hover::before,
+.head_fan:hover::before,
+.head_beet:hover::before
 {
     opacity:0;
 }
@@ -152,7 +164,11 @@
 .head_fatty::after,
 .head_witch::after,
 .head_noot::after,
-.head_yfd::after
+.head_yfd::after,
+.head_sailor::after,
+.head_tac::after,
+.head_fan::after,
+.head_beet::after
 {
     opacity: 0.75;
     top: 0;
@@ -577,5 +593,61 @@
 .head_yfd::after{
     background-image:url(../images_out/yfd_average.png);
     content:"_yfd";
+    font-size:x-large;
+}
+
+.head_sailor{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_sailor::before{
+    background-image:url(../images/heads/sailor.png);
+}
+.head_sailor::after{
+    background-image:url(../images_out/sailor_average.png);
+    content:"SailorV1";
+    font-size:x-large;
+}
+
+.head_tac{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_tac::before{
+    background-image:url(../images/heads/tac.png);
+}
+.head_tac::after{
+    background-image:url(../images_out/tac_average.png);
+    content:"tacgaminpro";
+    font-size:x-large;
+}
+
+.head_fan{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_fan::before{
+    background-image:url(../images/heads/fan.png);
+}
+.head_fan::after{
+    background-image:url(../images_out/fan_average.png);
+    content:"BubblyFan024";
+    font-size:x-large;
+}
+
+.head_beet{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_beet::before{
+    background-image:url(../images/heads/beet.png);
+}
+.head_beet::after{
+    background-image:url(../images_out/beet_average.png);
+    content:"BungalowBeet";
     font-size:x-large;
 }
