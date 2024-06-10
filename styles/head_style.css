@@ -35,7 +35,8 @@
 .head_sailor,
 .head_tac,
 .head_fan,
-.head_beet
+.head_beet,
+.head_sloth
 {
     display: block;
     position: relative;
@@ -77,7 +78,8 @@
 .head_sailor::before,
 .head_tac::before,
 .head_fan::before,
-.head_beet::before
+.head_beet::before,
+.head_sloth::before
 {
     content:"";
     top: 0;
@@ -128,7 +130,8 @@
 .head_sailor:hover::before,
 .head_tac:hover::before,
 .head_fan:hover::before,
-.head_beet:hover::before
+.head_beet:hover::before,
+.head_sloth:hover::before
 {
     opacity:0;
 }
@@ -168,7 +171,8 @@
 .head_sailor::after,
 .head_tac::after,
 .head_fan::after,
-.head_beet::after
+.head_beet::after,
+.head_sloth::after
 {
     opacity: 0.75;
     top: 0;
@@ -650,4 +654,18 @@
     background-image:url(../images_out/beet_average.png);
     content:"BungalowBeet";
     font-size:x-large;
+}
+
+.head_sloth{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_sloth::before{
+    background-image:url(../images/heads/sloth.png);
+}
+.head_sloth::after{
+    background-image:url(../images_out/sloth_average.png);
+    content:"SlothGamer23157";
+    font-size:large;
 }
