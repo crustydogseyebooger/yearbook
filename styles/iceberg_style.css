@@ -1,0 +1,99 @@
+/* For lore */
+
+.berg_server_iceberg,
+.berg_hash_iceberg,
+.berg_bub_iceberg,
+.berg_xan_iceberg
+{
+    display: block;
+    position: relative;
+    margin:10px;
+    width: 512px;
+    height: 915px;
+}
+
+.berg_server_iceberg::before,
+.berg_hash_iceberg::before,
+.berg_bub_iceberg::before,
+.berg_xan_iceberg::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+
+.berg_server_iceberg:hover::before,
+.berg_hash_iceberg:hover::before,
+.berg_bub_iceberg:hover::before,
+.berg_xan_iceberg:hover::before
+
+{
+    opacity:0;
+}
+
+
+.berg_server_iceberg::after,
+.berg_hash_iceberg::after,
+.berg_bub_iceberg::after,
+.berg_xan_iceberg::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:x-large;
+}
+
+.berg_server_iceberg::before{
+    background-image:url(../images/icebergs/server_iceberg.png);
+}
+.berg_server_iceberg::after{
+    background-image:url(../images_out/server_iceberg_average.png);
+    content:"Server lore iceberg";
+}
+
+.berg_hash_iceberg::before{
+    background-image:url(../images/icebergs/hash_iceberg.png);
+}
+.berg_hash_iceberg::after{
+    background-image:url(../images_out/hash_iceberg_average.png);
+    content:"Hash lore iceberg";
+}
+
+.berg_bub_iceberg::before{
+    background-image:url(../images/icebergs/bub_iceberg.png);
+}
+.berg_bub_iceberg::after{
+    background-image:url(../images_out/bub_iceberg_average.png);
+    content:"Bubbly lore iceberg";
+}
+
+
+.berg_xan_iceberg{
+    width: 691px;
+    height: 921px;
+}
+.berg_xan_iceberg::before{
+    background-image:url(../images/icebergs/xan_iceberg.png);
+}
+.berg_xan_iceberg::after{
+    background-image:url(../images_out/xan_iceberg_average.png);
+    content:"Xan lore iceberg";
+}

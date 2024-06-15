@@ -4,7 +4,14 @@
 .misc_akoots,
 .misc_double_akoots,
 .misc_maltsburg_roads,
-.misc_sego_house_purchase{
+.misc_sego_house_purchase,
+.misc_dogs,
+.misc_hash_base,
+.misc_pork_lord,
+.misc_quiz,
+.misc_rat_builds,
+.misc_two
+{
     display: block;
     position: relative;
     margin:10px;
@@ -14,7 +21,13 @@
 .misc_akoots::before,
 .misc_double_akoots::before,
 .misc_maltsburg_roads::before,
-.misc_sego_house_purchase::before
+.misc_sego_house_purchase::before,
+.misc_dogs::before,
+.misc_hash_base::before,
+.misc_pork_lord::before,
+.misc_quiz::before,
+.misc_rat_builds::before,
+.misc_two::before
 {
     content:"";
     top: 0;
@@ -35,7 +48,13 @@
 .misc_akoots:hover::before,
 .misc_double_akoots:hover::before,
 .misc_maltsburg_roads:hover::before,
-.misc_sego_house_purchase:hover::before
+.misc_sego_house_purchase:hover::before,
+.misc_dogs:hover::before,
+.misc_hash_base:hover::before,
+.misc_pork_lord:hover::before,
+.misc_quiz:hover::before,
+.misc_rat_builds:hover::before,
+.misc_two:hover::before
 
 {
     opacity:0;
@@ -46,7 +65,13 @@
 .misc_akoots::after,
 .misc_double_akoots::after,
 .misc_maltsburg_roads::after,
-.misc_sego_house_purchase::after
+.misc_sego_house_purchase::after,
+.misc_dogs::after,
+.misc_hash_base::after,
+.misc_pork_lord::after,
+.misc_quiz::after,
+.misc_rat_builds::after,
+.misc_two::after
 {
     opacity: 0.75;
     top: 0;
@@ -121,4 +146,76 @@
 .misc_sego_house_purchase::after{
     background-image:url(../images_out/sego_house_purchase_average.png);
     content:"Sego buys a house \A I wonder how much it costed him.";
+}
+
+.misc_dogs{
+    width: 513px;
+    height: 392px;
+}
+.misc_dogs::before{
+    background-image:url(../images/misc/dogs.png);
+}
+.misc_dogs::after{
+    background-image:url(../images_out/dogs_average.png);
+    content:"How many dogs are too many? (Trick question.)";
+}
+
+.misc_hash_base{
+    width: 340px;
+    height: 372px;
+}
+.misc_hash_base::before{
+    background-image:url(../images/misc/hash_base.png);
+}
+.misc_hash_base::after{
+    background-image:url(../images_out/hash_base_average.png);
+    content:"Hash and friends move in";
+}
+
+.misc_pork_lord{
+    width: 567px;
+    height: 425px;
+}
+.misc_pork_lord::before{
+    background-image:url(../images/misc/pork_lord.png);
+}
+.misc_pork_lord::after{
+    background-image:url(../images_out/pork_lord_average.png);
+    content:"Joe feeds the dogs";
+}
+
+.misc_quiz{
+    width: 244px;
+    height: 397px;
+}
+.misc_quiz::before{
+    background-image:url(../images/misc/quiz.png);
+}
+.misc_quiz::after{
+    background-image:url(../images_out/quiz_average.png);
+    content:"Are you a Hash, IPA, Xan, or Bubbly?";
+}
+
+.misc_rat_builds{
+    width: 603px;
+    height: 386px;
+}
+.misc_rat_builds::before{
+    background-image:url(../images/misc/rat_builds.png);
+}
+.misc_rat_builds::after{
+    background-image:url(../images_out/rat_builds_average.png);
+    content:"Spawn's property manager in action";
+}
+
+.misc_two{
+    width: 391px;
+    height: 388px;
+}
+.misc_two::before{
+    background-image:url(../images/misc/two.png);
+}
+.misc_two::after{
+    background-image:url(../images_out/two_average.png);
+    content:"Bubbly at the Two Shrine";
 }

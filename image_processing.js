@@ -258,12 +258,13 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/heads/tac.png");
+const im = Image.loadImageFromFile("images/icebergs/xan_iceberg.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("tac");
+avg.save("xan_iceberg");
 
-console.log(im.width/1,im.height/1);
+console.log(im.width/2.5,im.height/2.5);
+// console.log(im.width/2.15,im.height/2.15);
 
 

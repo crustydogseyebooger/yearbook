@@ -36,7 +36,8 @@
 .head_tac,
 .head_fan,
 .head_beet,
-.head_sloth
+.head_sloth,
+.head_axo
 {
     display: block;
     position: relative;
@@ -79,7 +80,8 @@
 .head_tac::before,
 .head_fan::before,
 .head_beet::before,
-.head_sloth::before
+.head_sloth::before,
+.head_axo::before
 {
     content:"";
     top: 0;
@@ -131,7 +133,8 @@
 .head_tac:hover::before,
 .head_fan:hover::before,
 .head_beet:hover::before,
-.head_sloth:hover::before
+.head_sloth:hover::before,
+.head_axo:hover::before
 {
     opacity:0;
 }
@@ -172,7 +175,8 @@
 .head_tac::after,
 .head_fan::after,
 .head_beet::after,
-.head_sloth::after
+.head_sloth::after,
+.head_axo::after
 {
     opacity: 0.75;
     top: 0;
@@ -667,5 +671,19 @@
 .head_sloth::after{
     background-image:url(../images_out/sloth_average.png);
     content:"SlothGamer23157";
+    font-size:large;
+}
+
+.head_axo{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_axo::before{
+    background-image:url(../images/heads/axo.png);
+}
+.head_axo::after{
+    background-image:url(../images_out/axo_average.png);
+    content:"_axolotl_";
     font-size:large;
 }

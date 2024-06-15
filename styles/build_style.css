@@ -12,7 +12,8 @@
 .build_dreamwick,
 .build_tatooine,
 .build_joe_city,
-.build_graveyard
+.build_graveyard,
+.build_500am_storage
 {
     display: block;
     position: relative;
@@ -31,7 +32,8 @@
 .build_dreamwick::before,
 .build_tatooine::before,
 .build_joe_city::before,
-.build_graveyard::before
+.build_graveyard::before,
+.build_500am_storage::before
 {
     content:"";
     top: 0;
@@ -59,7 +61,8 @@
 .build_dreamwick:hover::before,
 .build_tatooine:hover::before,
 .build_joe_city:hover::before,
-.build_graveyard:hover::before
+.build_graveyard:hover::before,
+.build_500am_storage:hover::before
 {
     opacity:0;
 }
@@ -76,7 +79,8 @@
 .build_dreamwick::after,
 .build_tatooine::after,
 .build_joe_city::after,
-.build_graveyard::after
+.build_graveyard::after,
+.build_500am_storage::after
 {
     opacity: 0.75;
     top: 0;
@@ -240,7 +244,7 @@
 
 .build_graveyard{
     width: 698px;
-    height:369px;
+    height: 369px;
 }
 .build_graveyard::before{
     background-image:url(../images/notable_builds/graveyard.png);
@@ -248,4 +252,16 @@
 .build_graveyard::after{
     background-image:url(../images_out/graveyard_average.png);
     content:"God rest their souls from this needless torment"
+}
+
+.build_500am_storage{
+    width: 652px;
+    height: 384px;
+}
+.build_500am_storage::before{
+    background-image:url(../images/notable_builds/500am_storage.png);
+}
+.build_500am_storage::after{
+    background-image:url(../images_out/graveyard_average.png);
+    content:"500am and IPA's pretty storage room"
 }
