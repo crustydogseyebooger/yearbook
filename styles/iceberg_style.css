@@ -77,6 +77,10 @@
     content:"Hash lore iceberg";
 }
 
+.berg_bub_iceberg{
+    width: 621px;
+    height: 865px;
+}
 .berg_bub_iceberg::before{
     background-image:url(../images/icebergs/bub_iceberg.png);
 }

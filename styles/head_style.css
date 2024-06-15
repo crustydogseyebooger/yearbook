@@ -37,7 +37,8 @@
 .head_fan,
 .head_beet,
 .head_sloth,
-.head_axo
+.head_axo,
+.head_salt
 {
     display: block;
     position: relative;
@@ -81,7 +82,8 @@
 .head_fan::before,
 .head_beet::before,
 .head_sloth::before,
-.head_axo::before
+.head_axo::before,
+.head_salt::before
 {
     content:"";
     top: 0;
@@ -134,7 +136,8 @@
 .head_fan:hover::before,
 .head_beet:hover::before,
 .head_sloth:hover::before,
-.head_axo:hover::before
+.head_axo:hover::before,
+.head_salt:hover::before
 {
     opacity:0;
 }
@@ -176,7 +179,8 @@
 .head_fan::after,
 .head_beet::after,
 .head_sloth::after,
-.head_axo::after
+.head_axo::after,
+.head_salt::after
 {
     opacity: 0.75;
     top: 0;
@@ -685,5 +689,19 @@
 .head_axo::after{
     background-image:url(../images_out/axo_average.png);
     content:"_axolotl_";
+    font-size:large;
+}
+
+.head_salt{
+    width: 184px;
+    height: 184px;
+    
+}
+.head_salt::before{
+    background-image:url(../images/heads/salt.png);
+}
+.head_salt::after{
+    background-image:url(../images_out/salt_average.png);
+    content:"Emp_Saltshaker";
     font-size:large;
 }
