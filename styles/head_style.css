@@ -1,89 +1,15 @@
 /* heads */
 
-.head_hash,
-.head_ipa,
-.head_akoot,
-.head_xan,
-.head_reno,
-.head_joe,
-.head_snark,
-.head_sego,
-.head_visc,
-.head_rat,
-.head_500am,
-.head_vnrs,
-.head_bub,
-.head_jozef,
-.head_cow,
-.head_neoma,
-
-.head_harpy,
-.head_mahoose,
-.head_men,
-.head_nova,
-.head_women,
-.head_yamda,
-.head_zap,
-.head_big,
-.head_star,
-.head_may,
-.head_tara,
-.head_fatty,
-.head_witch,
-.head_noot,
-.head_yfd,
-.head_sailor,
-.head_tac,
-.head_fan,
-.head_beet,
-.head_sloth,
-.head_axo,
-.head_salt
+.heads 
 {
     display: block;
     position: relative;
     margin:10px;
+    width:184px;
+    height: 184px;
 }
 
-.head_hash::before,
-.head_ipa::before,
-.head_akoot::before,
-.head_xan::before,
-.head_reno::before,
-.head_joe::before,
-.head_snark::before,
-.head_sego::before,
-.head_visc::before,
-.head_rat::before,
-.head_500am::before,
-.head_vnrs::before,
-.head_bub::before,
-.head_jozef::before,
-.head_cow::before,
-.head_neoma::before,
-
-.head_harpy::before,
-.head_mahoose::before,
-.head_men::before,
-.head_nova::before,
-.head_women::before,
-.head_yamda::before,
-.head_zap::before,
-.head_big::before,
-.head_star::before,
-.head_may::before,
-.head_tara::before,
-.head_fatty::before,
-.head_witch::before,
-.head_noot::before,
-.head_yfd::before,
-.head_sailor::before,
-.head_tac::before,
-.head_fan::before,
-.head_beet::before,
-.head_sloth::before,
-.head_axo::before,
-.head_salt::before
+.heads::before
 {
     content:"";
     top: 0;
@@ -99,88 +25,12 @@
     max-width: 100%;
 }
 
-.head_hash:hover::before,
-.head_ipa:hover::before,
-.head_akoot:hover::before,
-.head_xan:hover::before,
-.head_reno:hover::before,
-.head_joe:hover::before,
-.head_snark:hover::before,
-.head_sego:hover::before,
-.head_visc:hover::before,
-.head_rat:hover::before,
-.head_500am:hover::before,
-.head_vnrs:hover::before,
-.head_bub:hover::before,
-.head_jozef:hover::before,
-.head_cow:hover::before,
-.head_neoma:hover::before,
-
-.head_harpy:hover::before,
-.head_mahoose:hover::before,
-.head_men:hover::before,
-.head_nova:hover::before,
-.head_women:hover::before,
-.head_yamda:hover::before,
-.head_zap:hover::before,
-.head_big:hover::before,
-.head_star:hover::before,
-.head_may:hover::before,
-.head_tara:hover::before,
-.head_fatty:hover::before,
-.head_witch:hover::before,
-.head_noot:hover::before,
-.head_yfd:hover::before,
-.head_sailor:hover::before,
-.head_tac:hover::before,
-.head_fan:hover::before,
-.head_beet:hover::before,
-.head_sloth:hover::before,
-.head_axo:hover::before,
-.head_salt:hover::before
+.heads:hover::before
 {
     opacity:0;
 }
 
-.head_hash::after,
-.head_ipa::after,
-.head_akoot::after,
-.head_xan::after,
-.head_reno::after,
-.head_joe::after,
-.head_snark::after,
-.head_sego::after,
-.head_visc::after,
-.head_rat::after,
-.head_500am::after,
-.head_vnrs::after,
-.head_bub::after,
-.head_jozef::after,
-.head_cow::after,
-.head_neoma::after,
-
-.head_harpy::after,
-.head_mahoose::after,
-.head_men::after,
-.head_nova::after,
-.head_women::after,
-.head_yamda::after,
-.head_zap::after,
-.head_big::after,
-.head_star::after,
-.head_may::after,
-.head_tara::after,
-.head_fatty::after,
-.head_witch::after,
-.head_noot::after,
-.head_yfd::after,
-.head_sailor::after,
-.head_tac::after,
-.head_fan::after,
-.head_beet::after,
-.head_sloth::after,
-.head_axo::after,
-.head_salt::after
+.heads::after
 {
     opacity: 0.75;
     top: 0;
@@ -199,508 +49,351 @@
 
 /* individuals */
 
-.head_hash{
-    width: 184px;
-    height: 184px;
-}
-.head_hash::before{
+#head_hash::before{
     background-image:url(../images/heads/hash.png);
 }
-.head_hash::after{
+#head_hash::after{
     background-image:url(../images_out/hash_average.png);
     content:"lilhashbrown";
 } 
 
-.head_ipa{
-    width: 184px;
-    height: 184px;
-}
-.head_ipa::before{
+#head_ipa::before{
     background-image:url(../images/heads/ipa.png);
 }
-.head_ipa::after{
+#head_ipa::after{
     background-image:url(../images_out/ipa_average.png);
     content:"IndiaPaleAle";
 }
 
-.head_akoot{
-    width: 184px;
-    height: 184px;
-}
-.head_akoot::before{
+
+#head_akoot::before{
     background-image:url(../images/heads/akoot.png);
 }
-.head_akoot::after{
+#head_akoot::after{
     background-image:url(../images_out/akoot_average.png);
     content:"Akoot_";
 }
 
-.head_xan{
-    width: 184px;
-    height: 184px;
-}
-.head_xan::before{
+#head_xan::before{
     background-image:url(../images/heads/xan.png);
 }
-.head_xan::after{
+#head_xan::after{
     background-image:url(../images_out/xan_average.png);
     content:"Xanxus542";
 }
 
-.head_reno{
-    width: 184px;
-    height: 184px;
-}
-.head_reno::before{
+#head_reno::before{
     background-image:url(../images/heads/reno.png);
 }
-.head_reno::after{
+#head_reno::after{
     background-image:url(../images_out/reno_average.png);
     content:"cuddlyMonster";
 }
 
-.head_joe{
-    width: 184px;
-    height: 184px;
-}
-.head_joe::before{
+
+#head_joe::before{
     background-image:url(../images/heads/joe.png);
 }
-.head_joe::after{
+#head_joe::after{
     background-image:url(../images_out/joe_average.png);
     content:"joethahobo";
 }
 
-.head_snark{
-    width: 184px;
-    height: 184px;
-}
-.head_snark::before{
+
+#head_snark::before{
     background-image:url(../images/heads/snark.png);
 }
-.head_snark::after{
+#head_snark::after{
     background-image:url(../images_out/snark_average.png);
     content:"SnarKaizer";
 }
 
 
-.head_sego{
-    width: 184px;
-    height: 184px;
-}
-.head_sego::before{
+#head_sego::before{
     background-image:url(../images/heads/sego.png);
 }
-.head_sego::after{
+#head_sego::after{
     background-image:url(../images_out/sego_average.png);
     content:"Segotep999";
 }
 
-.head_visc{
-    width: 184px;
-    height: 184px;
-}
-.head_visc::before{
+
+#head_visc::before{
     background-image:url(../images/heads/visc.png);
 }
-.head_visc::after{
+#head_visc::after{
     background-image:url(../images_out/visc_average.png);
     content:"Viscalis";
 }
 
-.head_rat{
-    width: 184px;
-    height: 184px;
-}
-.head_rat::before{
+#head_rat::before{
     background-image:url(../images/heads/rat.png);
 }
-.head_rat::after{
+#head_rat::after{
     background-image:url(../images_out/rat_average.png);
     content:"Prince_Rat";
 }
 
-.head_500am{
-    width: 184px;
-    height: 184px;
-}
-.head_500am::before{
+
+#head_500am::before{
     background-image:url(../images/heads/500am.png);
 }
-.head_500am::after{
+#head_500am::after{
     background-image:url(../images_out/500am_average.png);
     content:"500am";
 }
 
-.head_vnrs{
-    width: 184px;
-    height: 184px;
-}
-.head_vnrs::before{
+
+#head_vnrs::before{
     background-image:url(../images/heads/vnrs.png);
 }
-.head_vnrs::after{
+#head_vnrs::after{
     background-image:url(../images_out/vnrs_average.png);
     content:"vnrs";
 }
 
-.head_bub{
-    width: 184px;
-    height: 184px;
-}
-.head_bub::before{
+
+#head_bub::before{
     background-image:url(../images/heads/bub.png);
 }
-.head_bub::after{
+#head_bub::after{
     background-image:url(../images_out/bub_average.png);
     content:"BubblyPrototype";
     font-size:large;
 }
 
-.head_jozef{
-    width: 184px;
-    height: 184px;
-}
-.head_jozef::before{
+
+#head_jozef::before{
     background-image:url(../images/heads/jozef.png);
 }
-.head_jozef::after{
+#head_jozef::after{
     background-image:url(../images_out/jozef_average.png);
     content:"jozef45";
-    font-size:large;
 }
 
-.head_cow{
-    width:184px;
-    height: 184px;
-    
-}
-.head_cow::before{
+
+#head_cow::before{
     background-image:url(../images/heads/cow.png);
 }
-.head_cow::after{
+#head_cow::after{
     background-image:url(../images_out/cow_average.png);
     content:"ExcitedCow494";
     font-size:large;
 }
 
-.head_neoma{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_neoma::before{
+
+#head_neoma::before{
     background-image:url(../images/heads/neoma.png);
 }
-.head_neoma::after{
+#head_neoma::after{
     background-image:url(../images_out/neoma_average.png);
     content:"Neoma__";
-    font-size:x-large;
 }
 
-.head_harpy{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_harpy::before{
+
+#head_harpy::before{
     background-image:url(../images/heads/harpy.png);
 }
-.head_harpy::after{
+#head_harpy::after{
     background-image:url(../images_out/harpy_average.png);
     content:"Spacewardharpy7";
     font-size:large;
 }
 
-.head_mahoose{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_mahoose::before{
+
+#head_mahoose::before{
     background-image:url(../images/heads/mahoose.png);
 }
-.head_mahoose::after{
+#head_mahoose::after{
     background-image:url(../images_out/mahoose_average.png);
     content:"Mahoose";
-    font-size:x-large;
 }
 
-.head_men{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_men::before{
+
+#head_men::before{
     background-image:url(../images/heads/men.png);
 }
-.head_men::after{
+#head_men::after{
     background-image:url(../images_out/men_average.png);
     content:"MenKissing";
-    font-size:x-large;
 }
 
-.head_women{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_women::before{
+
+#head_women::before{
     background-image:url(../images/heads/women.png);
 }
-.head_women::after{
+#head_women::after{
     background-image:url(../images_out/women_average.png);
     content:"WomenKissing";
-    font-size:x-large;
 }
 
-.head_yamda{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_yamda::before{
+
+#head_yamda::before{
     background-image:url(../images/heads/yamda.png);
 }
-.head_yamda::after{
+#head_yamda::after{
     background-image:url(../images_out/yamda_average.png);
     content:"Yamdalorian";
-    font-size:x-large;
 }
 
-.head_zap{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_zap::before{
+
+#head_zap::before{
     background-image:url(../images/heads/zap.png);
 }
-.head_zap::after{
+#head_zap::after{
     background-image:url(../images_out/zap_average.png);
     content:"Zaoper";
     font-size:x-large;
 }
 
-.head_big{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_big::before{
+
+#head_big::before{
     background-image:url(../images/heads/big.png);
 }
-.head_big::after{
+#head_big::after{
     background-image:url(../images_out/big_average.png);
     content:"BiggWang";
-    font-size:x-large;
 }
 
-.head_nova{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_nova::before{
+
+#head_nova::before{
     background-image:url(../images/heads/nova.png);
 }
-.head_nova::after{
+#head_nova::after{
     background-image:url(../images_out/nova_average.png);
     content:"ApophisNova";
     font-size:large;
 }
 
-.head_star{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_star::before{
+
+#head_star::before{
     background-image:url(../images/heads/star.png);
 }
-.head_star::after{
+#head_star::after{
     background-image:url(../images_out/star_average.png);
     content:"ECstardust";
     font-size:large;
 }
 
-.head_may{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_may::before{
+
+#head_may::before{
     background-image:url(../images/heads/may.png);
 }
-.head_may::after{
+#head_may::after{
     background-image:url(../images_out/may_average.png);
     content:"mayzface";
     font-size:x-large;
 }
 
-.head_tara{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_tara::before{
+
+#head_tara::before{
     background-image:url(../images/heads/tara.png);
 }
-.head_tara::after{
+#head_tara::after{
     background-image:url(../images_out/tara_average.png);
     content:"Tara_Dickov";
     font-size:x-large;
 }
 
-.head_fatty{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_fatty::before{
+
+#head_fatty::before{
     background-image:url(../images/heads/fatty.png);
 }
-.head_fatty::after{
+#head_fatty::after{
     background-image:url(../images_out/fatty_average.png);
     content:"FattyJubJub";
     font-size:x-large;
 }
 
-.head_witch{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_witch::before{
+
+#head_witch::before{
     background-image:url(../images/heads/witch.png);
 }
-.head_witch::after{
+#head_witch::after{
     background-image:url(../images_out/witch_average.png);
     content:"_witch_craft_";
     font-size:x-large;
 }
 
-.head_noot{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_noot::before{
+#head_noot::before{
     background-image:url(../images/heads/noot.png);
 }
-.head_noot::after{
+#head_noot::after{
     background-image:url(../images_out/noot_average.png);
     content:"soggynoot";
     font-size:x-large;
 }
 
-.head_yfd{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_yfd::before{
+#head_yfd::before{
     background-image:url(../images/heads/yfd.png);
 }
-.head_yfd::after{
+#head_yfd::after{
     background-image:url(../images_out/yfd_average.png);
     content:"_yfd";
     font-size:x-large;
 }
 
-.head_sailor{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_sailor::before{
+
+#head_sailor::before{
     background-image:url(../images/heads/sailor.png);
 }
-.head_sailor::after{
+#head_sailor::after{
     background-image:url(../images_out/sailor_average.png);
     content:"SailorV1";
     font-size:x-large;
 }
 
-.head_tac{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_tac::before{
+
+#head_tac::before{
     background-image:url(../images/heads/tac.png);
 }
-.head_tac::after{
+#head_tac::after{
     background-image:url(../images_out/tac_average.png);
     content:"tacgaminpro";
     font-size:x-large;
 }
 
-.head_fan{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_fan::before{
+#head_fan::before{
     background-image:url(../images/heads/fan.png);
 }
-.head_fan::after{
+#head_fan::after{
     background-image:url(../images_out/fan_average.png);
     content:"BubblyFan024";
     font-size:x-large;
 }
 
-.head_beet{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_beet::before{
+#head_beet::before{
     background-image:url(../images/heads/beet.png);
 }
-.head_beet::after{
+#head_beet::after{
     background-image:url(../images_out/beet_average.png);
     content:"BungalowBeet";
     font-size:x-large;
 }
 
-.head_sloth{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_sloth::before{
+
+#head_sloth::before{
     background-image:url(../images/heads/sloth.png);
 }
-.head_sloth::after{
+#head_sloth::after{
     background-image:url(../images_out/sloth_average.png);
     content:"SlothGamer23157";
     font-size:large;
 }
 
-.head_axo{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_axo::before{
+#head_axo::before{
     background-image:url(../images/heads/axo.png);
 }
-.head_axo::after{
+#head_axo::after{
     background-image:url(../images_out/axo_average.png);
     content:"_axolotl_";
     font-size:large;
 }
 
-.head_salt{
-    width: 184px;
-    height: 184px;
-    
-}
-.head_salt::before{
+#head_salt::before{
     background-image:url(../images/heads/salt.png);
 }
-.head_salt::after{
+#head_salt::after{
     background-image:url(../images_out/salt_average.png);
     content:"Emp_Saltshaker";
     font-size:large;

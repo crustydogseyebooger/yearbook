@@ -258,11 +258,11 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/icebergs/bub_iceberg.png");
+const im = Image.loadImageFromFile("images/heads/cow.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("bub_iceberg");
+avg.save("cow");
 
 console.log(im.width/1,im.height/1);
 // console.log(im.width/2.15,im.height/2.15);
