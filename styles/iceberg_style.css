@@ -1,9 +1,6 @@
 /* For lore */
 
-.berg_server_iceberg,
-.berg_hash_iceberg,
-.berg_bub_iceberg,
-.berg_xan_iceberg
+.icebergs
 {
     display: block;
     position: relative;
@@ -12,10 +9,7 @@
     height: 915px;
 }
 
-.berg_server_iceberg::before,
-.berg_hash_iceberg::before,
-.berg_bub_iceberg::before,
-.berg_xan_iceberg::before
+.icebergs::before
 {
     content:"";
     top: 0;
@@ -32,20 +26,14 @@
 }
 
 
-.berg_server_iceberg:hover::before,
-.berg_hash_iceberg:hover::before,
-.berg_bub_iceberg:hover::before,
-.berg_xan_iceberg:hover::before
+.icebergs:hover::before
 
 {
     opacity:0;
 }
 
 
-.berg_server_iceberg::after,
-.berg_hash_iceberg::after,
-.berg_bub_iceberg::after,
-.berg_xan_iceberg::after
+.icebergs::after
 {
     opacity: 0.75;
     top: 0;
@@ -61,43 +49,54 @@
     font-size:x-large;
 }
 
-.berg_server_iceberg::before{
+#berg_server_iceberg::before{
     background-image:url(../images/icebergs/server_iceberg.png);
 }
-.berg_server_iceberg::after{
+#berg_server_iceberg::after{
     background-image:url(../images_out/server_iceberg_average.png);
     content:"Server lore iceberg";
 }
 
-.berg_hash_iceberg::before{
+#berg_hash_iceberg::before{
     background-image:url(../images/icebergs/hash_iceberg.png);
 }
-.berg_hash_iceberg::after{
+#berg_hash_iceberg::after{
     background-image:url(../images_out/hash_iceberg_average.png);
     content:"Hash lore iceberg";
 }
 
-.berg_bub_iceberg{
+#berg_bub_iceberg{
     width: 621px;
     height: 865px;
 }
-.berg_bub_iceberg::before{
+#berg_bub_iceberg::before{
     background-image:url(../images/icebergs/bub_iceberg.png);
 }
-.berg_bub_iceberg::after{
+#berg_bub_iceberg::after{
     background-image:url(../images_out/bub_iceberg_average.png);
     content:"Bubbly lore iceberg";
 }
 
-
-.berg_xan_iceberg{
+#berg_xan_iceberg{
     width: 691px;
     height: 921px;
 }
-.berg_xan_iceberg::before{
+#berg_xan_iceberg::before{
     background-image:url(../images/icebergs/xan_iceberg.png);
 }
-.berg_xan_iceberg::after{
+#berg_xan_iceberg::after{
     background-image:url(../images_out/xan_iceberg_average.png);
     content:"Xan lore iceberg";
+}
+
+#berg_visc_iceberg{
+    width: 500px;
+    height: 882px;
+}
+#berg_visc_iceberg::before{
+    background-image:url(../images/icebergs/visc_iceberg.png);
+}
+#berg_visc_iceberg::after{
+    background-image:url(../images_out/visc_iceberg_average.png);
+    content:"Visc lore iceberg";
 }

@@ -1,39 +1,12 @@
 /* builds */
-
-.build_hash_new_base,
-.build_500am_base,
-.build_mail,
-.build_reno_tea_room,
-.build_prince_rat_axolotls,
-.build_pink_spawn,
-.build_aedan_house,
-.build_joe_utopia,
-.build_demon,
-.build_dreamwick,
-.build_tatooine,
-.build_joe_city,
-.build_graveyard,
-.build_500am_storage
+.builds
 {
     display: block;
     position: relative;
     margin:10px;
 }
 
-.build_hash_new_base::before,
-.build_500am_base::before,
-.build_mail::before,
-.build_reno_tea_room::before,
-.build_prince_rat_axolotls::before,
-.build_pink_spawn::before,
-.build_aedan_house::before,
-.build_joe_utopia::before,
-.build_demon::before,
-.build_dreamwick::before,
-.build_tatooine::before,
-.build_joe_city::before,
-.build_graveyard::before,
-.build_500am_storage::before
+.builds::before
 {
     content:"";
     top: 0;
@@ -49,38 +22,12 @@
     background-size: cover;
 }
 
-.build_hash_new_base:hover::before,
-.build_500am_base:hover::before,
-.build_mail:hover::before,
-.build_reno_tea_room:hover::before,
-.build_prince_rat_axolotls:hover::before,
-.build_pink_spawn:hover::before,
-.build_aedan_house:hover::before,
-.build_joe_utopia:hover::before,
-.build_demon:hover::before,
-.build_dreamwick:hover::before,
-.build_tatooine:hover::before,
-.build_joe_city:hover::before,
-.build_graveyard:hover::before,
-.build_500am_storage:hover::before
+.builds:hover::before
 {
     opacity:0;
 }
 
-.build_hash_new_base::after,
-.build_500am_base::after,
-.build_mail::after,
-.build_reno_tea_room::after,
-.build_prince_rat_axolotls::after,
-.build_pink_spawn::after,
-.build_aedan_house::after,
-.build_joe_utopia::after,
-.build_demon::after,
-.build_dreamwick::after,
-.build_tatooine::after,
-.build_joe_city::after,
-.build_graveyard::after,
-.build_500am_storage::after
+.builds::after
 {
     opacity: 0.75;
     top: 0;
@@ -97,171 +44,170 @@
 }
 
 
-.build_hash_new_base{
+#build_hash_new_base{
     width: 617px;
     height: 356px;
 }
-.build_hash_new_base::before{
+#build_hash_new_base::before{
     background-image:url(../images/notable_builds/hash_new_base.png);
 }
-.build_hash_new_base::after{
+#build_hash_new_base::after{
     background-image:url(../images_out/hash_average.png);
-    content:"Hash's new base\A Some have called it sinister and negative,\A but it was always meant to be cozy";
+    content:"Hash's new base\A Now with six residents!";
 }
 
-.build_500am_base{
+#build_500am_base{
     width: 801px;
     height: 406px;
 }
-.build_500am_base::before{
+#build_500am_base::before{
     background-image:url(../images/notable_builds/500am_base.png);
 }
-.build_500am_base::after{
+#build_500am_base::after{
     background-image:url(../images_out/500am_base_average.png);
     content:"500am's base\A Literally one of the grandest buildings on the server";
 }
 
-.build_mail{
+#build_mail{
     width: 474px;
     height: 463px;
 }
-.build_mail::before{
+#build_mail::before{
     background-image:url(../images/notable_builds/mail.png);
 }
-.build_mail::after{
+#build_mail::after{
     background-image:url(../images_out/mail_average.png);
     content:"Post Office\A Have you recieved mail?";
 }
 
-.build_reno_tea_room{
+#build_reno_tea_room{
     width: 905px;
     height: 419px;
 }
-.build_reno_tea_room::before{
+#build_reno_tea_room::before{
     background-image:url(../images/notable_builds/reno_tea_room.png);
 }
-.build_reno_tea_room::after{
+#build_reno_tea_room::after{
     background-image:url(../images_out/reno_tea_room_average.png);
     content:"Reno's Tea Room\A Pretty and pink, located at Pink House";
 }
 
-
-.build_prince_rat_axolotls{
+#build_prince_rat_axolotls{
     width: 574px;
     height: 329px;
 }
-.build_prince_rat_axolotls::before{
+#build_prince_rat_axolotls::before{
     background-image:url(../images/notable_builds/prince_rat_axolotls.png);
 }
-.build_prince_rat_axolotls::after{
+#build_prince_rat_axolotls::after{
     background-image:url(../images_out/prince_rat_axolotls_average.png);
     content:"Prince Rat's Axolotls\A Does he have every color?\A Does he have more than Hash?";
 }
 
-.build_pink_spawn{
+#build_pink_spawn{
     width: 669px;
     height: 376px;
 }
-.build_pink_spawn::before{
+#build_pink_spawn::before{
     background-image:url(../images/notable_builds/pink_spawn.png);
 }
-.build_pink_spawn::after{
+#build_pink_spawn::after{
     background-image:url(../images_out/pink_spawn_average.png);
     content:"Pink Spawn\A Turned pink prior to Hash's return by Pirk";
 }
 
-.build_aedan_house{
+#build_aedan_house{
     width: 768px;
     height: 403px;
 }
-.build_aedan_house::before{
+#build_aedan_house::before{
     background-image:url(../images/notable_builds/aedan_house.png);
 }
-.build_aedan_house::after{
+#build_aedan_house::after{
     background-image:url(../images_out/aedan_house_average.png);
     content:"Aedan's House\A Looks like it's in Maltsburg";
 }
 
-.build_joe_utopia{
+#build_joe_utopia{
     width: 626px;
     height: 337px;
 }
-.build_joe_utopia::before{
+#build_joe_utopia::before{
     background-image:url(../images/notable_builds/joe_utopia.png);
 }
-.build_joe_utopia::after{
+#build_joe_utopia::after{
     background-image:url(../images_out/joe_utopia_average.png);
     content:"Joe's Uptopia\A But where is the individualism?";
 }
 
-.build_demon{
+#build_demon{
     width: 768px;
     height: 410px;
 }
-.build_demon::before{
+#build_demon::before{
     background-image:url(../images/notable_builds/demon.png);
 }
-.build_demon::after{
+#build_demon::after{
     background-image:url(../images_out/demon_average.png);
     content:"Tara and Jub's Build\A This is actually so cool like? So cool.";
 }
 
-.build_dreamwick{
+#build_dreamwick{
     width: 600px;
     height: 392px;
 }
-.build_dreamwick::before{
+#build_dreamwick::before{
     background-image:url(../images/notable_builds/dreamwick.png);
 }
-.build_dreamwick::after{
+#build_dreamwick::after{
     background-image:url(../images_out/dreamwick_average.png);
     content:"Pirk's Dreamwick\A Pirk's medieval town, one of the coolest ever";
 }
 
-.build_tatooine{
+#build_tatooine{
     width: 768px;
     height: 410px;
 }
-.build_tatooine::before{
+#build_tatooine::before{
     background-image:url(../images/notable_builds/tatooine.png);
 }
-.build_tatooine::after{
+#build_tatooine::after{
     background-image:url(../images_out/tatooine_average.png);
     content:"Joe's Tatooine\A A Star Wars inspired build";
 }
 
-.build_joe_city{
+#build_joe_city{
     width: 724px;
     height: 383px;
 }
-.build_joe_city::before{
+#build_joe_city::before{
     background-image:url(../images/notable_builds/joe_city.png);
 }
-.build_joe_city::after{
+#build_joe_city::after{
     background-image:url(../images_out/joe_city_average.png);
     content:"Joe's City\A A modern city with a New York feel";
 }
 
-.build_graveyard{
+#build_graveyard{
     width: 698px;
     height: 369px;
 }
-.build_graveyard::before{
+#build_graveyard::before{
     background-image:url(../images/notable_builds/graveyard.png);
 }
-.build_graveyard::after{
+#build_graveyard::after{
     background-image:url(../images_out/graveyard_average.png);
-    content:"God rest their souls from this needless torment"
+    content:"God rest their souls"
 }
 
-.build_500am_storage{
+#build_500am_storage{
     width: 652px;
     height: 384px;
 }
-.build_500am_storage::before{
+#build_500am_storage::before{
     background-image:url(../images/notable_builds/500am_storage.png);
 }
-.build_500am_storage::after{
+#build_500am_storage::after{
     background-image:url(../images_out/graveyard_average.png);
     content:"500am and IPA's pretty storage room"
 }

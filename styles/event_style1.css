@@ -1,68 +1,14 @@
 /* events */
+/* sept, early/late oct, early/late dec, early jan*/
 
-.event_mahoose_birthday_1,
-.event_mahoose_birthday_2,
-.event_mahoose_boats,
-.event_mahoose_many,
-.event_taco_bell,
-.event_mahoose_shop,
-.event_bee_halloween,
-.event_nova_halloween,
-.event_nzzketch_halloween,
-.event_picture_box_halloween,
-
-.event_akoot_cafe,
-.event_akoot_cafe_sitting,
-.event_christmas_day_after,
-.event_christmas_friends,
-.event_christmas_friends_after,
-.event_christmas_tree,
-.event_christmas_trees,
-.event_december_court,
-.event_december_court_judge,
-.event_december_court_judge_attacked,
-.event_traveler,
-.event_traveler_entrance,
-
-.event_new_years_1,
-.event_new_years_2,
-.event_new_years_3,
-.event_new_years_4
+.events
 {
     display: block;
     position: relative;
     margin:10px;
 }
 
-.event_mahoose_birthday_1::before,
-.event_mahoose_birthday_2::before,
-.event_mahoose_boats::before,
-.event_mahoose_many::before,
-.event_taco_bell::before,
-.event_mahoose_shop::before,
-.event_bee_halloween::before,
-.event_nova_halloween::before,
-.event_nzzketch_halloween::before,
-.event_picture_box_halloween::before,
-
-.event_akoot_cafe::before,
-.event_akoot_cafe_sitting::before,
-.event_christmas_day_after::before,
-.event_christmas_friends::before,
-.event_christmas_friends_after::before,
-.event_christmas_tree::before,
-.event_christmas_trees::before,
-.event_december_court::before,
-.event_december_court_judge::before,
-.event_december_court_judge_attacked::before,
-.event_traveler::before,
-.event_traveler_entrance::before,
-
-.event_new_years_1::before,
-.event_new_years_2::before,
-.event_new_years_3::before,
-.event_new_years_4::before
-
+.events::before
 {
     content:"";
     top: 0;
@@ -78,68 +24,12 @@
     background-size: cover;
 }
 
-.event_mahoose_birthday_1:hover::before,
-.event_mahoose_birthday_2:hover::before,
-.event_mahoose_boats:hover::before,
-.event_mahoose_many:hover::before,
-.event_taco_bell:hover::before,
-.event_mahoose_shop:hover::before,
-.event_bee_halloween:hover::before,
-.event_nova_halloween:hover::before,
-.event_nzzketch_halloween:hover::before,
-.event_picture_box_halloween:hover::before,
-
-.event_akoot_cafe:hover::before,
-.event_akoot_cafe_sitting:hover::before,
-.event_christmas_day_after:hover::before,
-.event_christmas_friends:hover::before,
-.event_christmas_friends_after:hover::before,
-.event_christmas_tree:hover::before,
-.event_christmas_trees:hover::before,
-.event_december_court:hover::before,
-.event_december_court_judge:hover::before,
-.event_december_court_judge_attacked:hover::before,
-.event_traveler:hover::before,
-.event_traveler_entrance:hover::before,
-
-.event_new_years_1:hover::before,
-.event_new_years_2:hover::before,
-.event_new_years_3:hover::before,
-.event_new_years_4:hover::before
-
+.events:hover::before
 {
     opacity:0;
 }
 
-.event_mahoose_birthday_1::after,
-.event_mahoose_birthday_2::after,
-.event_mahoose_boats::after,
-.event_mahoose_many::after,
-.event_taco_bell::after,
-.event_mahoose_shop::after,
-.event_bee_halloween::after,
-.event_nova_halloween::after,
-.event_nzzketch_halloween::after,
-.event_picture_box_halloween::after,
-
-.event_akoot_cafe::after,
-.event_akoot_cafe_sitting::after,
-.event_christmas_day_after::after,
-.event_christmas_friends::after,
-.event_christmas_friends_after::after,
-.event_christmas_tree::after,
-.event_christmas_trees::after,
-.event_december_court::after,
-.event_december_court_judge::after,
-.event_december_court_judge_attacked::after,
-.event_traveler::after,
-.event_traveler_entrance::after,
-
-.event_new_years_1::after,
-.event_new_years_2::after,
-.event_new_years_3::after,
-.event_new_years_4::after
-
+.events::after
 {
     opacity: 0.75;
     top: 0;
@@ -155,304 +45,303 @@
     font-size:x-large;
 }
 
-.event_mahoose_birthday_1{
+#event_mahoose_birthday_1{
     width: 689px;
     height: 366px;
 }
-.event_mahoose_birthday_1::before{
+#event_mahoose_birthday_1::before{
     background-image:url(../images/events/mahoose_birthday_1.png);
 }
-.event_mahoose_birthday_1::after{
+#event_mahoose_birthday_1::after{
     background-image:url(../images_out/mahoose_birthday_1_average.png);
     content:"Mahoose's Birthday Party\A Is he a Virgo or a Libra?";
 }
 
-.event_mahoose_birthday_2{
+#event_mahoose_birthday_2{
     width: 731px;
     height: 388px;
 }
-.event_mahoose_birthday_2::before{
+#event_mahoose_birthday_2::before{
     background-image:url(../images/events/mahoose_birthday_2.png);
 }
-.event_mahoose_birthday_2::after{
+#event_mahoose_birthday_2::after{
     background-image:url(../images_out/mahoose_birthday_2_average.png);
     content:"More Mahoose's Birthday Party\A Is it true that he is Akoot_'s alt? Hmm...";
 }
 
-.event_mahoose_boats{
+#event_mahoose_boats{
     width: 395px;
     height: 342px;
 }
-.event_mahoose_boats::before{
+#event_mahoose_boats::before{
     background-image:url(../images/events/mahoose_boats.png);
 }
-.event_mahoose_boats::after{
+#event_mahoose_boats::after{
     background-image:url(../images_out/mahoose_boats_average.png);
     content:"Boats and Mahoose\A Not sure what the context of this is, but it's a cool picture!";
 }
 
-.event_mahoose_many{
+#event_mahoose_many{
     width: 576px;
     height: 340px;
 }
-.event_mahoose_many::before{
+#event_mahoose_many::before{
     background-image:url(../images/events/mahoose_many.png);
 }
-.event_mahoose_many::after{
+#event_mahoose_many::after{
     background-image:url(../images_out/mahoose_many_average.png);
     content:"So many Mahooses\A Can there be too many Mahooses? \A The answer depends on the recipient...";
 }
 
-.event_taco_bell{
+#event_taco_bell{
     width: 768px;
     height: 406px;
 }
-.event_taco_bell::before{
+#event_taco_bell::before{
     background-image:url(../images/events/taco_bell.png);
 }
-.event_taco_bell::after{
+#event_taco_bell::after{
     background-image:url(../images_out/taco_bell_average.png);
     content:"Taco Bell\A One of the first builds in the second shopping district.";
 }
 
-.event_mahoose_shop{
+#event_mahoose_shop{
     width: 496px;
     height: 398px;
 }
-.event_mahoose_shop::before{
+#event_mahoose_shop::before{
     background-image:url(../images/events/mahoose_shop.png);
 }
-.event_mahoose_shop::after{
+#event_mahoose_shop::after{
     background-image:url(../images_out/mahoose_shop_average.png);
     content:"Mahoose's First Shop\A Obviously the prices are totally reasonable! \A Looking back on this, is this Mahoose being sold?";
 }
 
-.event_bee_halloween{
+#event_bee_halloween{
     width: 624px;
     height: 410px;
 }
-.event_bee_halloween::before{
+#event_bee_halloween::before{
     background-image:url(../images/events/bee_halloween.png);
 }
-.event_bee_halloween::after{
+#event_bee_halloween::after{
     background-image:url(../images_out/bee_halloween_average.png);
     content:"Bee's Contest Submission";
 }
 
-.event_nova_halloween{
+#event_nova_halloween{
     width: 467px;
     height: 338px;
 }
-.event_nova_halloween::before{
+#event_nova_halloween::before{
     background-image:url(../images/events/nova_halloween.png);
 }
-.event_nova_halloween::after{
+#event_nova_halloween::after{
     background-image:url(../images_out/nova_halloween_average.png);
     content:"Nova's Contest Submission";
 }
 
-.event_nzzketch_halloween{
+#event_nzzketch_halloween{
     width: 617px;
     height: 298px;
 }
-.event_nzzketch_halloween::before{
+#event_nzzketch_halloween::before{
     background-image:url(../images/events/nzzketch_halloween.png);
 }
-.event_nzzketch_halloween::after{
+#event_nzzketch_halloween::after{
     background-image:url(../images_out/nzzketch_halloween_average.png);
     content:"Nzzketch's Contest Submission";
 }
 
-.event_picture_box_halloween{
+#event_picture_box_halloween{
     width: 601px;
     height: 363px;
 }
-.event_picture_box_halloween::before{
+#event_picture_box_halloween::before{
     background-image:url(../images/events/picture_box_halloween.png);
 }
-.event_picture_box_halloween::after{
+#event_picture_box_halloween::after{
     background-image:url(../images_out/picture_box_halloween_average.png);
     content:"Picture Box's Contest Submission";
 }
 
-.event_akoot_cafe{
+#event_akoot_cafe{
     width: 777px;
     height: 404px;
 }
-.event_akoot_cafe::before{
+#event_akoot_cafe::before{
     background-image:url(../images/events/akoot_cafe.png);
 }
-.event_akoot_cafe::after{
+#event_akoot_cafe::after{
     background-image:url(../images_out/akoot_cafe_average.png);
     content:"Akoot's Cafe \A Located directly behind spawn.";
 }
 
-.event_akoot_cafe_sitting{
+#event_akoot_cafe_sitting{
     width: 571px;
     height: 385px;
 }
-.event_akoot_cafe_sitting::before{
+#event_akoot_cafe_sitting::before{
     background-image:url(../images/events/akoot_cafe_sitting.png);
 }
-.event_akoot_cafe_sitting::after{
+#event_akoot_cafe_sitting::after{
     background-image:url(../images_out/akoot_cafe_sitting_average.png);
     content:"Akoot's Cafe with customers\A Maybe the most famous picture on the server.";
 }
 
-.event_christmas_friends{
+#event_christmas_friends{
     width: 642px;
     height: 380px;
 }
-.event_christmas_friends::before{
+#event_christmas_friends::before{
     background-image:url(../images/events/christmas_friends.png);
 }
-.event_christmas_friends::after{
+#event_christmas_friends::after{
     background-image:url(../images_out/christmas_friends_average.png);
     content:"Christmas with friends";
 }
 
-.event_christmas_friends_after{
+#event_christmas_friends_after{
     width: 663px;
     height: 391px;
 }
-.event_christmas_friends_after::before{
+#event_christmas_friends_after::before{
     background-image:url(../images/events/christmas_friends_after.png);
 }
-.event_christmas_friends_after::after{
+#event_christmas_friends_after::after{
     background-image:url(../images_out/christmas_friends_after_average.png);
     content:"Friends enjoying Christmas";
 }
 
-.event_christmas_tree{
+#event_christmas_tree{
     width: 734px;
     height: 408px;
 }
-.event_christmas_tree::before{
+#event_christmas_tree::before{
     background-image:url(../images/events/christmas_tree.png);
 }
-.event_christmas_tree::after{
+#event_christmas_tree::after{
     background-image:url(../images_out/christmas_tree_average.png);
     content:"Christmas trees at spawn";
 }
 
-.event_christmas_trees{
+#event_christmas_trees{
     width: 853px;
     height: 438px;
 }
-.event_christmas_trees::before{
+#event_christmas_trees::before{
     background-image:url(../images/events/christmas_trees.png);
 }
-.event_christmas_trees::after{
+#event_christmas_trees::after{
     background-image:url(../images_out/christmas_trees_average.png);
     content:"More Christmas trees at spawn";
 }
 
-
-.event_december_court{
+#event_december_court{
     width: 535px;
     height: 313px;
 }
-.event_december_court::before{
+#event_december_court::before{
     background-image:url(../images/events/december_court.png);
 }
-.event_december_court::after{
+#event_december_court::after{
     background-image:url(../images_out/december_court_average.png);
     content:"December Court \A Akoot vs. Xanxus";
 }
 
-.event_december_court_judge{
+#event_december_court_judge{
     width: 477px;
     height: 321px;
 }
-.event_december_court_judge::before{
+#event_december_court_judge::before{
     background-image:url(../images/events/december_court_judge.png);
 }
-.event_december_court_judge::after{
+#event_december_court_judge::after{
     background-image:url(../images_out/december_court_judge_average.png);
     content:"December Court Judge\A Hash (why did they let her be judge?)";
 }
 
-.event_december_court_judge_attacked{
+#event_december_court_judge_attacked{
     width: 542px;
     height: 367px;
 }
-.event_december_court_judge_attacked::before{
+#event_december_court_judge_attacked::before{
     background-image:url(../images/events/december_court_judge_attacked.png);
 }
-.event_december_court_judge_attacked::after{
+#event_december_court_judge_attacked::after{
     background-image:url(../images_out/december_court_judge_attacked_average.png);
     content:"December Court Judge Attacked!\A But who really started it?";
 }
 
 
-.event_new_years_1{
+#event_new_years_1{
     width: 673px;
     height: 375px;
 }
-.event_new_years_1::before{
+#event_new_years_1::before{
     background-image:url(../images/events/new_years_1.png);
 }
-.event_new_years_1::after{
+#event_new_years_1::after{
     background-image:url(../images_out/new_years_1_average.png);
     content:"New Year's Eve\A Group photo!";
 }
 
-.event_new_years_2{
+#event_new_years_2{
     width: 523px;
     height: 306px;
 }
-.event_new_years_2::before{
+#event_new_years_2::before{
     background-image:url(../images/events/new_years_2.png);
 }
-.event_new_years_2::after{
+#event_new_years_2::after{
     background-image:url(../images_out/new_years_2_average.png);
     content:"New Year's Eve\A Friends watching the fireworks.";
 }
 
-.event_new_years_3{
+#event_new_years_3{
     width: 530px;
     height: 369px;
 }
-.event_new_years_3::before{
+#event_new_years_3::before{
     background-image:url(../images/events/new_years_3.png);
 }
-.event_new_years_3::after{
+#event_new_years_3::after{
     background-image:url(../images_out/new_years_3_average.png);
     content:"New Year's Eve\A Another group photo, are you in it?";
 }
 
-.event_new_years_4{
+#event_new_years_4{
     width: 530px;
     height: 369px;
 }
-.event_new_years_4::before{
+#event_new_years_4::before{
     background-image:url(../images/events/new_years_4.png);
 }
-.event_new_years_4::after{
+#event_new_years_4::after{
     background-image:url(../images_out/new_years_4_average.png);
     content:"New Year's Eve\A More friends watching the fireworks.";
 }
 
-.event_traveler{
+#event_traveler{
     width: 768px;
     height: 410px;
 }
-.event_traveler::before{
+#event_traveler::before{
     background-image:url(../images/events/traveler.png);
 }
-.event_traveler::after{
+#event_traveler::after{
     background-image:url(../images_out/traveler_average.png);
     content:"Traveler Minigame\A Created by Jozef and extremely difficult!";
 }
 
-.event_traveler_entrance{
+#event_traveler_entrance{
     width: 768px;
     height: 410px;
 }
-.event_traveler_entrance::before{
+#event_traveler_entrance::before{
     background-image:url(../images/events/traveler_entrance.png);
 }
-.event_traveler_entrance::after{
+#event_traveler_entrance::after{
     background-image:url(../images_out/traveler_entrance_average.png);
     content:"Traveler Minigame\A Have you completed it?";
 }

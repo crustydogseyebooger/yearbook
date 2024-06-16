@@ -1,33 +1,13 @@
 /* When there isn't a clear topic for the page */
-
-.misc_akoot_friends_sitting,
-.misc_akoots,
-.misc_double_akoots,
-.misc_maltsburg_roads,
-.misc_sego_house_purchase,
-.misc_dogs,
-.misc_hash_base,
-.misc_pork_lord,
-.misc_quiz,
-.misc_rat_builds,
-.misc_two
+/* nov, mid june*/
+.misc
 {
     display: block;
     position: relative;
     margin:10px;
 }
 
-.misc_akoot_friends_sitting::before,
-.misc_akoots::before,
-.misc_double_akoots::before,
-.misc_maltsburg_roads::before,
-.misc_sego_house_purchase::before,
-.misc_dogs::before,
-.misc_hash_base::before,
-.misc_pork_lord::before,
-.misc_quiz::before,
-.misc_rat_builds::before,
-.misc_two::before
+.misc::before
 {
     content:"";
     top: 0;
@@ -44,34 +24,12 @@
 }
 
 
-.misc_akoot_friends_sitting:hover::before,
-.misc_akoots:hover::before,
-.misc_double_akoots:hover::before,
-.misc_maltsburg_roads:hover::before,
-.misc_sego_house_purchase:hover::before,
-.misc_dogs:hover::before,
-.misc_hash_base:hover::before,
-.misc_pork_lord:hover::before,
-.misc_quiz:hover::before,
-.misc_rat_builds:hover::before,
-.misc_two:hover::before
-
+.misc:hover::before
 {
     opacity:0;
 }
 
-
-.misc_akoot_friends_sitting::after,
-.misc_akoots::after,
-.misc_double_akoots::after,
-.misc_maltsburg_roads::after,
-.misc_sego_house_purchase::after,
-.misc_dogs::after,
-.misc_hash_base::after,
-.misc_pork_lord::after,
-.misc_quiz::after,
-.misc_rat_builds::after,
-.misc_two::after
+.misc::after
 {
     opacity: 0.75;
     top: 0;
@@ -87,135 +45,134 @@
     font-size:x-large;
 }
 
-.misc_akoot_friends_sitting{
+#misc_akoot_friends_sitting{
     width: 513px;
     height: 328px;
 }
-.misc_akoot_friends_sitting::before{
+#misc_akoot_friends_sitting::before{
     background-image:url(../images/misc/akoot_friends_sitting.png);
 }
-.misc_akoot_friends_sitting::after{
+#misc_akoot_friends_sitting::after{
     background-image:url(../images_out/akoot_friends_sitting_average.png);
     content:"Akoot sitting with friends";
 }
 
-.misc_akoots{
+#misc_akoots{
     width: 432px;
     height: 323px;
 }
-.misc_akoots::before{
+#misc_akoots::before{
     background-image:url(../images/misc/akoots.png);
 }
-.misc_akoots::after{
+#misc_akoots::after{
     background-image:url(../images_out/akoots_average.png);
     content:"Multiple Akoots";
 }
 
-.misc_double_akoots{
+#misc_double_akoots{
     width: 423px;
     height: 340px;
 }
-.misc_double_akoots::before{
+#misc_double_akoots::before{
     background-image:url(../images/misc/double_akoots.png);
 }
-.misc_double_akoots::after{
+#misc_double_akoots::after{
     background-image:url(../images_out/double_akoots_average.png);
     content:"Double Akoots \A Twin, where have you been?";
 }
 
-.misc_maltsburg_roads{
+#misc_maltsburg_roads{
     width: 674px;
     height: 383px;
 }
-.misc_maltsburg_roads::before{
+#misc_maltsburg_roads::before{
     background-image:url(../images/misc/maltsburg_roads.png);
 }
-.misc_maltsburg_roads::after{
+#misc_maltsburg_roads::after{
     background-image:url(../images_out/maltsburg_roads_average.png);
     content:"Construction of Maltsburg Roads \A This was before it was overtaken by rats...";
 }
 
-
-.misc_sego_house_purchase{
+#misc_sego_house_purchase{
     width: 592px;
     height: 456px;
 }
-.misc_sego_house_purchase::before{
+#misc_sego_house_purchase::before{
     background-image:url(../images/misc/sego_house_purchase.png);
 }
-.misc_sego_house_purchase::after{
+#misc_sego_house_purchase::after{
     background-image:url(../images_out/sego_house_purchase_average.png);
     content:"Sego buys a house \A I wonder how much it costed him.";
 }
 
-.misc_dogs{
+#misc_dogs{
     width: 513px;
     height: 392px;
 }
-.misc_dogs::before{
+#misc_dogs::before{
     background-image:url(../images/misc/dogs.png);
 }
-.misc_dogs::after{
+#misc_dogs::after{
     background-image:url(../images_out/dogs_average.png);
     content:"How many dogs are too many? (Trick question.)";
 }
 
-.misc_hash_base{
+#misc_hash_base{
     width: 340px;
     height: 372px;
 }
-.misc_hash_base::before{
+#misc_hash_base::before{
     background-image:url(../images/misc/hash_base.png);
 }
-.misc_hash_base::after{
+#misc_hash_base::after{
     background-image:url(../images_out/hash_base_average.png);
     content:"Hash and friends move in";
 }
 
-.misc_pork_lord{
+#misc_pork_lord{
     width: 567px;
     height: 425px;
 }
-.misc_pork_lord::before{
+#misc_pork_lord::before{
     background-image:url(../images/misc/pork_lord.png);
 }
-.misc_pork_lord::after{
+#misc_pork_lord::after{
     background-image:url(../images_out/pork_lord_average.png);
     content:"Joe feeds the dogs";
 }
 
-.misc_quiz{
+#misc_quiz{
     width: 244px;
     height: 397px;
 }
-.misc_quiz::before{
+#misc_quiz::before{
     background-image:url(../images/misc/quiz.png);
 }
-.misc_quiz::after{
+#misc_quiz::after{
     background-image:url(../images_out/quiz_average.png);
     content:"Are you a Hash, IPA, Xan, or Bubbly?";
 }
 
-.misc_rat_builds{
+#misc_rat_builds{
     width: 603px;
     height: 386px;
 }
-.misc_rat_builds::before{
+#misc_rat_builds::before{
     background-image:url(../images/misc/rat_builds.png);
 }
-.misc_rat_builds::after{
+#misc_rat_builds::after{
     background-image:url(../images_out/rat_builds_average.png);
     content:"Spawn's property manager in action";
 }
 
-.misc_two{
+#misc_two{
     width: 391px;
     height: 388px;
 }
-.misc_two::before{
+#misc_two::before{
     background-image:url(../images/misc/two.png);
 }
-.misc_two::after{
+#misc_two::after{
     background-image:url(../images_out/two_average.png);
     content:"Bubbly at the Two Shrine";
 }

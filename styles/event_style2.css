@@ -1,49 +1,14 @@
 /* events */
+/* mid/late jan, feb, mar, apr */
 
-.event_wedding_1,
-.event_wedding_2,
-.event_flower_fight_1,
-.event_flower_fight_2,
-.event_survivor_1,
-.event_survivor_2,
-.event_ipa_overload,
-.event_sizzle,
-
-.event_end_1,
-.event_end_2,
-.event_march_laying_1,
-.event_march_laying_2,
-.event_march_laying_3,
-
-.event_mail_1,
-.event_mail_2,
-.event_bee_farm,
-.event_sizzle_stand
+.events
 {
     display: block;
     position: relative;
     margin:10px;
 }
 
-.event_wedding_1::before,
-.event_wedding_2::before,
-.event_flower_fight_1::before,
-.event_flower_fight_2::before,
-.event_survivor_1::before,
-.event_survivor_2::before,
-.event_ipa_overload::before,
-.event_sizzle::before,
-
-.event_end_1::before,
-.event_end_2::before,
-.event_march_laying_1::before,
-.event_march_laying_2::before,
-.event_march_laying_3::before,
-
-.event_mail_1::before,
-.event_mail_2::before,
-.event_bee_farm::before,
-.event_sizzle_stand::before
+.events::before
 {
     content:"";
     top: 0;
@@ -59,49 +24,12 @@
     background-size: cover;
 }
 
-.event_wedding_1:hover::before,
-.event_wedding_2:hover::before,
-.event_flower_fight_1:hover::before,
-.event_flower_fight_2:hover::before,
-.event_survivor_1:hover::before,
-.event_survivor_2:hover::before,
-.event_ipa_overload:hover::before,
-.event_sizzle:hover::before,
-
-.event_end_1:hover::before,
-.event_end_2:hover::before,
-.event_march_laying_1:hover::before,
-.event_march_laying_2:hover::before,
-.event_march_laying_3:hover::before,
-
-.event_mail_1:hover::before,
-.event_mail_2:hover::before,
-.event_bee_farm:hover::before,
-.event_sizzle_stand:hover::before
+.events:hover::before
 {
     opacity:0;
 }
 
-.event_wedding_1::after,
-.event_wedding_2::after,
-.event_flower_fight_1::after,
-.event_flower_fight_2::after,
-.event_survivor_1::after,
-.event_survivor_2::after,
-.event_ipa_overload::after,
-.event_sizzle::after,
-
-.event_end_1::after,
-.event_end_2::after,
-.event_march_laying_1::after,
-.event_march_laying_2::after,
-.event_march_laying_3::after,
-
-.event_mail_1::after,
-.event_mail_2::after,
-.event_bee_farm::after,
-.event_sizzle_stand::after
-
+.events::after
 {
     opacity: 0.75;
     top: 0;
@@ -118,206 +46,206 @@
 }
 
 
-.event_wedding_1{
+#event_wedding_1{
     width: 952px;
     height: 460px;
 }
-.event_wedding_1::before{
+#event_wedding_1::before{
     background-image:url(../images/events/wedding_1.png);
 }
-.event_wedding_1::after{
+#event_wedding_1::after{
     background-image:url(../images_out/wedding_1_average.png);
     content:"Akoot & Co. Wedding\A I believe this was Bubbly and Two's wedding \A Venue built by Crate.";
 }
 
-.event_wedding_2{
+#event_wedding_2{
     width: 987px;
     height: 416px;
 }
-.event_wedding_2::before{
+#event_wedding_2::before{
     background-image:url(../images/events/wedding_2.png);
 }
-.event_wedding_2::after{
+#event_wedding_2::after{
     background-image:url(../images_out/wedding_2_average.png);
     content:"Akoot & Co. Wedding\A I don't remember if the marriage plugin was actually working...";
 }
 
-.event_flower_fight_1{
+#event_flower_fight_1{
     width: 787px;
     height: 421px;
 }
-.event_flower_fight_1::before{
+#event_flower_fight_1::before{
     background-image:url(../images/events/flower_fight_1.png);
 }
-.event_flower_fight_1::after{
+#event_flower_fight_1::after{
     background-image:url(../images_out/flower_fight_1_average.png);
     content:"Flower Fight Arena\A Take off your armor. Shake my hand. Go!";
 }
 
-.event_flower_fight_2{
+#event_flower_fight_2{
     width: 418px;
     height: 375px;
 }
-.event_flower_fight_2::before{
+#event_flower_fight_2::before{
     background-image:url(../images/events/flower_fight_2.png);
 }
-.event_flower_fight_2::after{
+#event_flower_fight_2::after{
     background-image:url(../images_out/flower_fight_2_average.png);
     content:"Flower Fight Arena\A Too bad someone removed it... how sad.";
 }
 
-.event_survivor_1{
+#event_survivor_1{
     width: 717px;
     height: 367px;
 }
-.event_survivor_1::before{
+#event_survivor_1::before{
     background-image:url(../images/events/survivor_1.png);
 }
-.event_survivor_1::after{
+#event_survivor_1::after{
     background-image:url(../images_out/survivor_1_average.png);
     content:"Survivor Minigame\A Skyblock with PVP and amazing redstone engineering by Crate and IPA";
 }
 
-.event_survivor_2{
+#event_survivor_2{
     width: 558px;
     height: 277px;
 }
-.event_survivor_2::before{
+#event_survivor_2::before{
     background-image:url(../images/events/survivor_2.png);
 }
-.event_survivor_2::after{
+#event_survivor_2::after{
     background-image:url(../images_out/survivor_2_average.png);
     content:"Survivor Minigame\A This game literally made my laptop explode every time it was run!";
 }
 
-.event_ipa_overload{
+#event_ipa_overload{
     width: 573px;
     height: 441px;
 }
-.event_ipa_overload::before{
+#event_ipa_overload::before{
     background-image:url(../images/events/ipa_overload.png);
 }
-.event_ipa_overload::after{
+#event_ipa_overload::after{
     background-image:url(../images_out/ipa_overload_average.png);
     content:"IPA's Playerheads\A The sign is right.";
 }
 
-.event_sizzle{
+#event_sizzle{
     width: 1280px;
     height: 720px;
 }
-.event_sizzle::before{
+#event_sizzle::before{
     background-image:url(../images/events/sizzle.png);
 }
-.event_sizzle::after{
+#event_sizzle::after{
     background-image:url(../images_out/sizzle_average.png);
     content:"Sizzle War\A Cow and Bubbly fought over ownership to the Sizzle, a popular news publication.";
 }
 
-.event_end_1{
+#event_end_1{
     width: 770px;
     height: 401px;
 }
-.event_end_1::before{
+#event_end_1::before{
     background-image:url(../images/events/end_1.png);
 }
-.event_end_1::after{
+#event_end_1::after{
     background-image:url(../images_out/end_1_average.png);
     content:"End Racetrack\A The racetrack in the End was completed. Does anyone use it today?";
 }
 
-.event_end_2{
+#event_end_2{
     width: 608px;
     height: 384px;
 }
-.event_end_2::before{
+#event_end_2::before{
     background-image:url(../images/events/end_2.png);
 }
-.event_end_2::after{
+#event_end_2::after{
     background-image:url(../images_out/end_2_average.png);
     content:"End Racetrack\A Extremely dangerous and admittedly gorgeous.";
 }
 
-.event_march_laying_1{
+#event_march_laying_1{
     width: 364px;
     height: 364px;
 }
-.event_march_laying_1::before{
+#event_march_laying_1::before{
     background-image:url(../images/events/march_laying_1.png);
 }
-.event_march_laying_1::after{
+#event_march_laying_1::after{
     background-image:url(../images_out/march_laying_1_average.png);
     content:"Akoot laying in the flowers";
 }
 
-.event_march_laying_2{
+#event_march_laying_2{
     width: 512px;
     height: 401px;
 }
-.event_march_laying_2::before{
+#event_march_laying_2::before{
     background-image:url(../images/events/march_laying_2.png);
 }
-.event_march_laying_2::after{
+#event_march_laying_2::after{
     background-image:url(../images_out/march_laying_2_average.png);
     content:"Joe and Mahoose laying together";
 }
 
-.event_march_laying_3{
+#event_march_laying_3{
     width: 733px;
     height: 389px;
 }
-.event_march_laying_3::before{
+#event_march_laying_3::before{
     background-image:url(../images/events/march_laying_3.png);
 }
-.event_march_laying_3::after{
+#event_march_laying_3::after{
     background-image:url(../images_out/march_laying_3_average.png);
     content:"Mahoose laying on bed";
 }
 
-.event_mail_1{
+#event_mail_1{
     width: 645px;
     height: 445px;
 }
-.event_mail_1::before{
+#event_mail_1::before{
     background-image:url(../images/events/mail_1.png);
 }
-.event_mail_1::after{
+#event_mail_1::after{
     background-image:url(../images_out/mail_1_average.png);
     content:"Mailboxes \A Mail system got an upgrade.";
 }
 
-.event_mail_2{
+#event_mail_2{
     width: 780px;
     height: 404px;
 }
-.event_mail_2::before{
+#event_mail_2::before{
     background-image:url(../images/events/mail_2.png);
 }
-.event_mail_2::after{
+#event_mail_2::after{
     background-image:url(../images_out/mail_2_average.png);
     content:"Do you have mail?";
 }
 
-.event_bee_farm{
+#event_bee_farm{
     width: 680px;
     height: 411px;
 }
-.event_bee_farm::before{
+#event_bee_farm::before{
     background-image:url(../images/events/bee_farm.png);
 }
-.event_bee_farm::after{
+#event_bee_farm::after{
     background-image:url(../images_out/bee_farm_average.png);
     content:"Noisy's bee farm \A Located at spawn, public use. Super cute!";
 }
 
-.event_sizzle_stand{
+#event_sizzle_stand{
     width: 507px;
     height: 426px;
 }
-.event_sizzle_stand::before{
+#event_sizzle_stand::before{
     background-image:url(../images/events/sizzle_stand.png);
 }
-.event_sizzle_stand::after{
+#event_sizzle_stand::after{
     background-image:url(../images_out/sizzle_stand_average.png);
     content:"Sizzle stand \A Make sure to get your copy of the server's journalistic publication.";
 }
