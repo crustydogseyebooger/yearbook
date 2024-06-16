@@ -1,0 +1,143 @@
+/* events */
+/* mid june 2 */
+
+.events
+{
+    display: block;
+    position: relative;
+    margin:10px;
+}
+
+.events::before
+{
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+    background-size: cover;
+}
+
+.events:hover::before
+{
+    opacity:0;
+}
+
+.events::after
+{
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    font-family: 'MinecraftFont';  
+    padding-top:20%;
+    white-space: pre-wrap;
+    font-size:x-large;
+}
+
+
+#event_upd_1{
+    width: 545px;
+    height: 359px;
+}
+#event_upd_1::before{
+    background-image:url(../images/events/upd_1.png);
+}
+#event_upd_1::after{
+    background-image:url(../images_out/upd_1_average.png);
+    content:"Tiny IPA";
+}
+
+#event_upd_2{
+    width: 742px;
+    height: 417px;
+}
+#event_upd_2::before{
+    background-image:url(../images/events/upd_2.png);
+}
+#event_upd_2::after{
+    background-image:url(../images_out/upd_2_average.png);
+    content:"Tiny Cow";
+}
+ 
+#event_survivor_3{
+    width: 653px;
+    height: 395px;
+}
+#event_survivor_3::before{
+    background-image:url(../images/events/survivor_3.png);
+}
+#event_survivor_3::after{
+    background-image:url(../images_out/survivor_3_average.png);
+    content:"Bubbly watches survivor";
+} 
+
+#event_survivor_4{
+    width: 593px;
+    height: 419px;
+}
+#event_survivor_4::before{
+    background-image:url(../images/events/survivor_4.png);
+}
+#event_survivor_4::after{
+    background-image:url(../images_out/survivor_4_average.png);
+    content:"Team 1: Akoot, Rat, Cow \A Team 2: Crate, Visc, Sailor";
+} 
+
+#event_survivor_5{
+    width: 765px;
+    height: 433px;
+}
+#event_survivor_5::before{
+    background-image:url(../images/events/survivor_5.png);
+}
+#event_survivor_5::after{
+    background-image:url(../images_out/survivor_5_average.png);
+    content:"Lava rains";
+} 
+
+#event_survivor_6{
+    width: 734px;
+    height: 400px;
+}
+#event_survivor_6::before{
+    background-image:url(../images/events/survivor_6.png);
+}
+#event_survivor_6::after{
+    background-image:url(../images_out/survivor_6_average.png);
+    content:"Visc crafts";
+} 
+
+#event_survivor_7{
+    width: 510px;
+    height: 390px;
+}
+#event_survivor_7::before{
+    background-image:url(../images/events/survivor_7.png);
+}
+#event_survivor_7::after{
+    background-image:url(../images_out/survivor_7_average.png);
+    content:"Rat breaks a block";
+} 
+
+#event_survivor_8{
+    width: 324px;
+    height: 397px;
+}
+#event_survivor_8::before{
+    background-image:url(../images/events/survivor_8.png);
+}
+#event_survivor_8::after{
+    background-image:url(../images_out/survivor_8_average.png);
+    content:"Sign says it all \A Taken right before the start";
+} 

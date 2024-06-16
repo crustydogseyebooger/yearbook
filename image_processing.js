@@ -258,13 +258,16 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/icebergs/visc_iceberg.png");
+const im = Image.loadImageFromFile("images/events/survivor_8.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("visc_iceberg");
+avg.save("survivor_8");
 
 console.log(im.width/1,im.height/1);
-// console.log(im.width/2.15,im.height/2.15);
+
+const DIV = 1.5;
+
+console.log(im.width/DIV,im.height/DIV);
 
 
