@@ -398,3 +398,12 @@
     content:"Emp_Saltshaker";
     font-size:large;
 }
+
+#head_pirk::before{
+    background-image:url(../images/heads/pirk.png);
+}
+#head_pirk::after{
+    background-image:url(../images_out/pirk_average.png);
+    content:"Emp_Saltshaker";
+    font-size:large;
+}
