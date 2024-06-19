@@ -404,6 +404,15 @@
 }
 #head_pirk::after{
     background-image:url(../images_out/pirk_average.png);
-    content:"Emp_Saltshaker";
+    content:"Pirkolette";
+    font-size:large;
+}
+
+#head_orlando::before{
+    background-image:url(../images/heads/orlando.png);
+}
+#head_orlando::after{
+    background-image:url(../images_out/orlando_average.png);
+    content:"Orlando_Innamora";
     font-size:large;
 }
