@@ -141,3 +141,159 @@
     background-image:url(../images_out/survivor_8_average.png);
     content:"Sign says it all \A Taken right before the start";
 } 
+
+#event_stack_1{
+    width: 202px;
+    height: 487px;
+}
+#event_stack_1::before{
+    background-image:url(../images/events2/stack_1.png);
+}
+#event_stack_1::after{
+    background-image:url(../images_out/stack_1_average.png);
+    content:"From bottom to top: \A Pirk, Hash, Akoot";
+} 
+
+#event_stack_2{
+    width: 228px;
+    height: 484px;
+}
+#event_stack_2::before{
+    background-image:url(../images/events2/stack_2.png);
+}
+#event_stack_2::after{
+    background-image:url(../images_out/stack_2_average.png);
+    content:"From bottom to top: \A Rat, Crate, Hash, Bubbly, Xan, IPA, Visc";
+} 
+
+#event_akoot_tall{
+    width: 345px;
+    height: 485px;
+}
+#event_akoot_tall::before{
+    background-image:url(../images/events2/akoot_tall.png);
+}
+#event_akoot_tall::after{
+    background-image:url(../images_out/akoot_tall_average.png);
+    content:"This is literally a movie poster";
+} 
+
+#event_boat{
+    width: 446px;
+    height: 438px;
+}
+#event_boat::before{
+    background-image:url(../images/events2/boat.png);
+}
+#event_boat::after{
+    background-image:url(../images_out/boat_average.png);
+    content:"I can't even comprehend this photo";
+} 
+
+#event_bub_dragon{
+    width: 502px;
+    height: 348px;
+}
+#event_bub_dragon::before{
+    background-image:url(../images/events2/bub_dragon.png);
+}
+#event_bub_dragon::after{
+    background-image:url(../images_out/bub_dragon_average.png);
+    content:"Bubbly kills the enderdragon!";
+} 
+
+#event_hash_afk{
+    width: 450px;
+    height: 381px;
+}
+#event_hash_afk::before{
+    background-image:url(../images/events2/hash_afk.png);
+}
+#event_hash_afk::after{
+    background-image:url(../images_out/hash_afk_average.png);
+    content:"Hash works on food plugin....";
+} 
+
+#event_pirk_fox{
+    width: 305px;
+    height: 406px;
+}
+#event_pirk_fox::before{
+    background-image:url(../images/events2/pirk_fox.png);
+}
+#event_pirk_fox::after{
+    background-image:url(../images_out/pirk_fox_average.png);
+    content:"Pirk has a fox on her head!";
+} 
+
+#event_500am_sits{
+    width: 514px;
+    height: 382px;
+}
+#event_500am_sits::before{
+    background-image:url(../images/events2/500am_sits.png);
+}
+#event_500am_sits::after{
+    background-image:url(../images_out/500am_sits_average.png);
+    content:"500am sits in Dreamwick's cat cafe";
+} 
+
+#event_ipa_dog{
+    width: 808px;
+    height: 434px;
+}
+#event_ipa_dog::before{
+    background-image:url(../images/events2/ipa_dog.png);
+}
+#event_ipa_dog::after{
+    background-image:url(../images_out/ipa_dog_average.png);
+    content:"Giant dog and regular-sized IPA \A or regular-sized dog and tiny IPA?";
+} 
+
+#event_rat_farm{
+    width: 919px;
+    height: 471px;
+}
+#event_rat_farm::before{
+    background-image:url(../images/events2/rat_farm.png);
+}
+#event_rat_farm::after{
+    background-image:url(../images_out/rat_farm_average.png);
+    content:"Rat's new wheat farm!";
+} 
+
+#event_pookie{
+    width: 1250px;
+    height: 515px;
+}
+#event_pookie::before{
+    background-image:url(../images/events2/pookie.png);
+}
+#event_pookie::after{
+    background-image:url(../images_out/pookie_average.png);
+    content:"Pookie is back! (She's missing again.)";
+} 
+
+#event_before{
+    width: 698px;
+    height: 373px;
+}
+#event_before::before{
+    background-image:url(../images/events2/before.png);
+}
+#event_before::after{
+    background-image:url(../images_out/before_average.png);
+    content:"Moments before chaos";
+} 
+
+#event_after{
+    width: 698px;
+    height: 373px;
+}
+#event_after::before{
+    background-image:url(../images/events2/after.png);
+}
+#event_after::after{
+    background-image:url(../images_out/after_average.png);
+    content:"Moments after chaos";
+} 

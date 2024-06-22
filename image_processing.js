@@ -258,15 +258,15 @@ function getAverage(img){
 }
 
 
-const im = Image.loadImageFromFile("images/heads/orlando.png");
+const im = Image.loadImageFromFile("images/events2/before.png");
 console.log(getAverage(im));
 
 const avg = toAverage(im);
-avg.save("orlando");
+avg.save("before");
 
 console.log(im.width/1,im.height/1);
 
-const DIV = 1.5;
+const DIV = 5.50;
 
 console.log(im.width/DIV,im.height/DIV);
 
